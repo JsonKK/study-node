@@ -1,0 +1,54 @@
+{	
+	"//" : "包的名称，必须且唯一，由小写英文字母、数字下划线组成、不能包含空格",
+	"name" : "",
+	"//":"包的简要说明",
+	"description" : "",
+	"//":"符合语义化版本识别规范的版本字符串",
+	"version":"1.0.1",
+	"//":"关键字数组，通常用于搜索",
+	"keywords":[
+		"package",
+		"example"
+	],
+	"//":"维护者数组，每个元素要包含name,email(可选),web(可选)字段",
+	"maintainers":[
+		{
+			"name": "Bill Smith",
+			"email": "bills@example.com",
+		}
+	],
+	"//":"贡献者数组，与maintainers格式相同。包的作者应该是贡献者的第一个对象",
+	"contributors":[
+		{
+			"name": "BYVoid",
+			"web": "http://www.byvoid.com/"
+		}
+	],
+	"//":"提交bug的地址，可以是网址或者电子邮件地址",
+	"bugs":{
+		"mail":"595675516@qq.com",
+		"web":"http://www.baidu.com/"
+	},
+	"//":"许可证数组，每个元素要包含type(许可证的名称)和url(链接到许可证文本的地址)字段",
+	"licenses":[
+		{
+			"type": "GPLv2",
+			"url": "http://www.example.org/licenses/gpl.html"
+		}
+	],
+	"//":"仓库托管地址数组，每个元素要包含 type  （仓库的类型，如  git ）、url （仓库的地址）和  path （相对于仓库的路径，可选）字段。",
+	"repositories":[
+		{
+			"type": "git",
+			"url": "http://github.com/BYVoid/mypackage.git"
+		}
+	],
+	"//":"包的依赖，一个关联数组，由包名称和版本号组成。",
+	"dependencies": {
+		"webkit": "1.2",
+		"ssl": {
+			"gnutls": ["1.0", "2.0"],
+			"openssl": "0.9.8"
+		}
+	}
+}
