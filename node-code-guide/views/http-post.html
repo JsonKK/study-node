@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>测试http-post</title>
+</head>
+<body>
+    <h1>post过去的参数:</h1>
+    <p id="content"></p>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.2/jquery.min.js"></script>
+    <script>
+        $(function(){
+            $.post("/rest/todo-post",{suggest:'this is a post message'},function(result){
+                $('#content').html(result);
+            });
+        });
+    </script>
+</body>
+</html>

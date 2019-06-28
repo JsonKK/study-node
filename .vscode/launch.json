@@ -9,6 +9,12 @@
             "request": "launch",
             "name": "调试当前文件",
             "program": "${file}"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "调试当前文件2",
+            "program": "${file}"
         }
     ]
 }
