@@ -7,14 +7,24 @@
         {
             "type": "node",
             "request": "launch",
-            "name": "调试当前文件",
+            "name": "相对于study-node下的当前文件",
             "program": "${file}"
         },
         {
             "type": "node",
             "request": "launch",
-            "name": "调试当前文件2",
-            "program": "${file}"
+            "name": "fs-render下的当前文件",
+            "program": "${file}",
+            "webRoot": "${workspaceRoot}/node-itcast-lesson/fs-render",
+            "cwd":"${workspaceRoot}/node-itcast-lesson/fs-render"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "http-module下的当前文件",
+            "program": "${file}",
+            "webRoot": "${workspaceRoot}/node-itcast-lesson/http-module",
+            "cwd":"${workspaceRoot}/node-itcast-lesson/http-module"
         }
     ]
 }
