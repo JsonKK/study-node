@@ -13,10 +13,10 @@
         {
             "type": "node",
             "request": "launch",
-            "name": "fs-render下的当前文件",
+            "name": "post-req下的当前文件",
             "program": "${file}",
-            "webRoot": "${workspaceRoot}/node-itcast-lesson/fs-render",
-            "cwd":"${workspaceRoot}/node-itcast-lesson/fs-render"
+            "webRoot": "${workspaceRoot}/node-itcast-lesson/post-req",
+            "cwd":"${workspaceRoot}/node-itcast-lesson/post-req"
         },
         {
             "type": "node",
@@ -25,6 +25,13 @@
             "program": "${file}",
             "webRoot": "${workspaceRoot}/node-itcast-lesson/http-module",
             "cwd":"${workspaceRoot}/node-itcast-lesson/http-module"
-        }
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "file-explorer下的当前文件",
+            "program": "${file}",
+            "cwd":"${workspaceRoot}/node-amazing/chapter-five/file-explorer"
+        },
     ]
 }

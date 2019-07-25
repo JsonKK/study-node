@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>表单首页</title>
+</head>
+<body>
+    <form action="sub-form" method="POST" enctype="multipart/form-data">
+        <div class="row">
+            <label for="name">姓名</label>
+            <input type="text" name="name" id="name"/>
+        </div>
+        <div>
+            <label for="sex">性别</label>
+            <input type="radio" name="sex" value="1" />男
+            <input type="radio" name="sex" value="2" />女
+        </div>
+        <div class="row">
+            <label for="hobby">爱好</label>
+            <input type="checkbox" name="hobby" value="睡觉"/>睡觉
+            <input type="checkbox" name="hobby" value="吃饭"/>吃饭
+            <input type="checkbox" name="hobby" value="篮球"/>篮球
+        </div>
+        <div class="row">
+            <label for="file" >上传图片</label>
+            <input type="file" name="pic" id="pic" accept="image/gif, image/jpeg,image/png" multiple="multiple"  />
+        </div>
+        <button type="submit">提交</button>
+    </form>
+    <script src="./jq/jquery-1.11.2.min.js"></script>
+</body>
+</html>
