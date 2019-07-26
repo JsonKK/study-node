@@ -41,6 +41,11 @@ var server = http.createServer(function(req,res){
             if(err){
                 throw err;
             }
+            if(!files || !files.pic.name){
+                res.writeHead(200, {'content-type': 'application/json;charset=UTF-8'});
+                res.end(JSON.stringify({title:'没有接收到文件上传'}));
+                return;
+            }
             fs.mkdir('./src/pics/',(err,data)=>{
                 let time,randomNum,typeName,oldPath,newPath;
                 filesArr.forEach((pic,index)=>{
@@ -53,11 +58,12 @@ var server = http.createServer(function(req,res){
                     fs.rename(oldpath,newpath,function(err){
                         if(err){
                             console.log("改名失败");
+                            res.writeHead(200, {'content-type': 'text/plain;charset=UTF-8'});
                             res.end(pic[1].name + '改名失败');
                             return;
                         }
                         if(index == filesArr.length-1){
-                            res.writeHead(200, {'content-type': 'text/plain'});
+                            res.writeHead(200, {'content-type': 'text/plain;charset=UTF-8'});
                             res.end("图片上传成功");
                         }
                     });

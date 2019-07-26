@@ -7,7 +7,7 @@
     <title>表单首页</title>
 </head>
 <body>
-    <form action="sub-form" method="POST" enctype="multipart/form-data">
+    <form action="sub-form" method="POST" enctype="multipart/form-data" id="form">
         <div class="row">
             <label for="name">姓名</label>
             <input type="text" name="name" id="name"/>
@@ -29,6 +29,11 @@
         </div>
         <button type="submit">提交</button>
     </form>
+    <button type="button" id="sub-form">异步提交</button>
+    <script src="./js/sea.js"></script>
     <script src="./jq/jquery-1.11.2.min.js"></script>
+    <script type="text/javascript">
+        seajs.use('/js/index.js');
+    </script>
 </body>
 </html>
