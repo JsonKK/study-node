@@ -4,6 +4,7 @@
     // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
+    
         {
             "type": "node",
             "request": "launch",
@@ -33,5 +34,12 @@
             "program": "${file}",
             "cwd":"${workspaceRoot}/node-amazing/chapter-five/file-explorer"
         },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "node-code-guide/readfile下的当前文件",
+            "program": "${file}",
+            "cwd":"${workspaceRoot}/node-code-guide/demo/readfile"
+        }
     ]
 }
