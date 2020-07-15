@@ -1,0 +1,9 @@
+{
+  "delay" : 2500,
+  "watch" : [
+    "src/*"
+  ],
+  "ignore" : [
+    "src/ls.js"
+  ]
+}
