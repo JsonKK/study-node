@@ -1,13 +1,14 @@
 //计算阶乘
-const htutils = require('./htutils');
-const math = require('./utils/math');
+const htutils = require('../utils/htutils');
+const math = require('../utils/math');
+const url = require('url');
 
 // 定义计算结果方法
 function sendResult(req,res,a,fiboval){
   // 响应成功，返回html文档
   res.writeHead(200,{
     'Content-Type' : 'text/html'
-  });
+  })
   const oneRow = !isNaN(fiboval) ? `<p class="result">${a} fibonacci = ${fiboval}` : '';
   res.end(
     htutils.page('Fibonacci2',htutils.navbar(),`
@@ -23,14 +24,18 @@ function sendResult(req,res,a,fiboval){
 }
 
 exports.get = function(req,res){
+  //一次请求两次调用reswritehead报错
+  //报错信息 cannot set headers after they are sent to the client
   // 响应成功，返回html文档
-  res.writeHead(200,{
-    'Content-Type' : 'text/html'
-  })
-  if(!isNaN(req.a)){
+  // res.writeHead(200,{
+  //   'Content-Type' : 'text/html'
+  // })
+  const query = url.parse(req.url,true).query;
+  let a = query.a;
+  if(!isNaN(a)){
     console.time('斐波那契数方法');
-    math.fibonacciAsync(Math.floor(req.a),(val)=>{
-      sendResult(req,res,Math.floor(req.a),val);
+    math.fibonacciAsync(Math.floor(a),(val)=>{
+      sendResult(req,res,Math.floor(a),val);
     })
     console.timeEnd('斐波那契数方法');
   }
