@@ -60,7 +60,7 @@
             "request": "launch",
             "name": "node-web/base-connect程序执行",
             "program": "./index.js",
-            "cwd":"${workspaceRoot}/node-web/simple-case/src/base-connect"
+            "cwd":"${workspaceRoot}/node-web/base-connect"
         }
     ]
 }
