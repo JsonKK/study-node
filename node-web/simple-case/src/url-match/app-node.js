@@ -25,6 +25,9 @@ const server = http.createServer((req,res)=>{
     case '/fibonacci':
       requirePath = './fibonacci-node';
       break;
+    case '/fibonacci2':
+      requirePath = './fibonacci-node2';
+      break;
     case '/mult':
       requirePath = './mult-node';
       break;

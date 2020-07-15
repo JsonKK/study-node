@@ -17,3 +17,23 @@ const fibonacci = exports.fibonacci = function(n){
     return fibonacci(n-1) + fibonacci(n-2);
   }
 }
+
+//异步调用斐波那契数列方法
+const fibonacciAsync = exports.fibonacciAsync = function(n,done){
+  if(n === 1 || n === 2){
+    done(1);
+  }
+  else{
+    process.nextTick(function(){
+      fibonacciAsync(n-1,function(val1){
+        console.log(val1 + 'a');
+        process.nextTick(function(){
+          fibonacciAsync(n-2,function(val2){
+            console.log(val2 + 'b');
+            done(val1 + val2);
+          })
+        })
+      })
+    })
+  }
+}
