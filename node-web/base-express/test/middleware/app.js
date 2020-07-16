@@ -2,11 +2,22 @@
 const express = require('express');
 // 实例化全局应用
 const app = express();
+//引入url 工具
+const url = require('url');
+
+//引用自定义路由
+const routerUser = require('./route/user.route');
+
+//日志打印
+function log_middleware(req,res,next){
+  let{protocol,hostname,originalUrl} = req;
+  console.log('this request url is ::::' + protocol + '://' + hostname + originalUrl);
+  next();
+}
 
 //定义中间件方法
 function middleware(req,res,next){
   let {name} = req.query;
-  console.log(name);
   //!name时候会放''通行
   if(!name || !name.length){
     res.json({
@@ -19,6 +30,10 @@ function middleware(req,res,next){
     next()
   }
 }
+
+app.use(log_middleware);
+
+app.use('/user',routerUser);
 
 //全局请求引用中间件
 app.all('*',middleware);
