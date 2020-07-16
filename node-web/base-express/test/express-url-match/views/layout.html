@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title><%= title %></title>
+  <link href="./assets/css/main.css" rel="stylesheet" />
+</head>
+<body>
+  <h1><%= title %></h1>
+  <table>
+    <tr>
+      <td class="nav-title">
+        <div class="navbar">
+          <p><a href="/">home</a></p>
+          <p><a href="/mult">Multiplication</a></p>
+          <p><a href="/square">Square's</a></p>
+          <p><a href="/factorial">Factorial's</a></p>
+          <p><a href="/fibonacci">Fibonacci's</a></p>
+        </div>
+      </td>
+      <td><%- body %></td>
+    </tr>
+  </table>
+</body>
+</html>

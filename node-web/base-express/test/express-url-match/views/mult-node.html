@@ -1,0 +1,10 @@
+<% if (query && query.a && query.b) {%>
+  <p class="result">
+    <%= query.a %> * <%= query.b %> = <%- query.a * query.b%>
+  </p>
+<% } %>
+<form name="mult" action="/mult" method="get">
+  A:<input type="text" name="a" /><br/>
+  B:<input type="text" name="b" />
+  <input type="submit" value="提交" />
+</from>

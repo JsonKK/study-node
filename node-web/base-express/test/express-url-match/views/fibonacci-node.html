@@ -1,0 +1,9 @@
+<% if (query && query.a && !isNaN(query.a)) {%>
+  <p class="result">
+    <%= query.a %> fibonacci =  <%- result %>
+  </p>
+<% } %>
+<form name="factorial" action="/factorial" method="get">
+  A:<input type="text" name="a" /><br/>
+  <input type="submit" value="提交" />
+</from>
