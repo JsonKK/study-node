@@ -51,7 +51,7 @@ router.get('/create',async (req,res,next)=>{
 router.get('/list',async (req,res)=>{
   let list = await models.person.findAll();
   res.json({
-    listl
+    list
   })
 })
 

@@ -1,0 +1,32 @@
+this request url is ::::http://localhost/task/edit/3/2; 2020-07-25 05:38:15 错误信息是：项目状态修改失败！
+this request url is ::::http://localhost/task/edit; 2020-07-25 05:25:06 错误信息是：任务状态异常，编辑失败
+this request url is ::::http://localhost/task/edit; 2020-07-25 05:24:49 错误信息是：任务状态异常，编辑失败
+this request url is ::::http://localhost/task/edit; 2020-07-25 05:20:39 错误信息是：缺少增加任务的必要参数
+this request url is ::::http://localhost/task/delete/5; 2020-07-25 05:08:09 错误信息是：项目不存或已经被删除！
+this request url is ::::http://localhost/task/delete/4; 2020-07-25 05:06:45 错误信息是：项目不存或已经被删除！
+this request url is ::::http://localhost/task/delete/3; 2020-07-25 05:05:48 错误信息是：项目不存或已经被删除！
+this request url is ::::http://localhost/task/delete/1; 2020-07-25 04:49:20 错误信息是：删除任务失败
+this request url is ::::http://localhost/task/create; 2020-07-25 04:21:09 错误信息是：任务已经存在，请重新创建任务
+this request url is ::::http://localhost/task/create; 2020-07-25 04:14:08 错误信息是：任务已经存在，请重新创建任务
+this request url is ::::http://localhost/task/create; 2020-07-25 04:13:58 错误信息是：任务已经存在，请重新创建任务
+this request url is ::::http://localhost/task/create; 2020-07-25 04:07:40 错误信息是：Cannot read property 'findOne' of undefined
+this request url is ::::http://localhost/task/create; 2020-07-25 04:07:34 错误信息是：任务截止时间不合法
+this request url is ::::http://localhost/task/create; 2020-07-25 04:01:02 错误信息是：任务截止时间不合法
+this request url is ::::http://localhost/task/create; 2020-07-25 03:56:48 错误信息是：module is not a function
+this request url is ::::http://localhost/task/create; 2020-07-25 03:56:38 错误信息是：缺少增加任务的必要参数
+this request url is ::::http://localhost/task/create; 2020-07-25 03:50:46 错误信息是：缺少增加任务的必要参数
+this request url is ::::http://localhost/task/create; 2020-07-25 03:44:28 错误信息是：缺少增加任务的必要参数
+this request url is ::::http://localhost/task/create; 2020-07-25 03:44:25 错误信息是：缺少增加任务的必要参数
+this request url is ::::http://localhost/task/create; 2020-07-25 03:44:17 错误信息是：缺少增加任务的必要参数
+this request url is ::::http://localhost/task/create; 2020-07-25 03:42:40 错误信息是：缺少增加任务的必要参数
+this request url is ::::http://localhost/task/create; 2020-07-25 03:17:46 错误信息是：Data too long for column 'content' at row 1
+this request url is ::::http://localhost/task/create; 2020-07-25 03:15:36 错误信息是：Data too long for column 'content' at row 1
+this request url is ::::http://localhost/task/create; 2020-07-25 03:12:05 错误信息是：Data too long for column 'content' at row 1
+this request url is ::::http://127.0.0.1/task/create; 2020-07-25 02:26:06 错误信息是：name is not defined
+this request url is ::::http://127.0.0.1/task/create; 2020-07-25 02:24:58 错误信息是：Cannot destructure property `name` of 'undefined' or 'null'.
+this request url is ::::http://127.0.0.1/person/create?name=fsdf&phone=1337289; 2020-07-25 11:18:27 错误信息是：protocol is not defined
+this request url is ::::http://127.0.0.1/person/create?name=fsdf&phone=1337289; 2020-07-25 11:17:53 错误信息是：protocol is not defined
+this request url is ::::http://127.0.0.1/person/create?name=fsdf&phone=1337289; 2020-07-25 11:17:05 错误信息是：protocol is not defined
+this request url is ::::http://127.0.0.1/person/create?name=fsdf&phone=1337289; 2020-07-25 11:16:01 错误信息是：utils.getRequestPath is not a function
+this request url is ::::http://127.0.0.1/person/create?name=fsdf&phone=1337289; 2020-07-25 11:00:54 错误信息是：utils.getRequestPath is not a function
+this request url is ::::http://127.0.0.1/person/create?name=fsdf&phone=1337289; 2020-07-25 11:00:16错误信息是：utils.getRequestPath is not a function
