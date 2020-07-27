@@ -1,0 +1,2 @@
+this request url is ::::http://localhost/task/list; 2020-07-27 07:32:58 错误信息是：res.json is not a function
+this request url is ::::http://localhost/task/list; 2020-07-27 07:31:21 错误信息是：Cannot read property 'findAndCountAll' of undefined

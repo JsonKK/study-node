@@ -8,6 +8,9 @@ const models = require('../db/models');
 const utils = require('../utils/utils.js');
 //引入时间工具
 const moment = require('moment');
+//引入sequelize
+const sequelize = require('sequelize');
+const Op = sequelize.Op;
 
 // 定义私有方法
 const private = {
@@ -142,6 +145,31 @@ const private = {
     }).catch(err => {
       next(err);
     })
+  },
+  //校验获取列表参数
+  //条目数没传默认10
+  //状态不符合抛出异常
+  validateList(req,res,next){
+    let statuses = [0,1,2];
+    // 从body上获取参数
+    let {pageNum , status , pageSize} = req.body;
+    status = status ? Number(status) : '';
+    // 页码不存在
+    if(!pageNum){
+      throw {
+        message : '页面有误'
+      }
+    }
+    if(!Number(pageSize)){
+      pageSize = 10;
+    }
+    if(status && statuses.indexOf(status) == -1){
+      throw {
+        message : '查询任务状态有误'
+      }
+    }
+    req.sendData = {pageNum,pageSize,status};
+    next();
   }
 }
 
@@ -254,7 +282,38 @@ router.post('/edit',[private.validateEdit],async (req,res,next)=>{
 })
 
 //获取任务列表带分页
-
+router.post('/list',[private.validateList],async (req,res,next)=>{
+  let {pageNum,pageSize,status} = req.sendData;
+  let offset = (pageNum - 1) * pageSize;
+  // 查询一般状态，不返回删除的数据
+  let where = {
+    status : {
+      //状态不为0
+      [Op.not] : 0
+    }
+  };
+  //如果查询固定状态的数据则传递固定条件
+  if(status || status === 0){
+    where = {
+      status
+    }
+  }
+  try{
+    let result = await models.todo.findAndCountAll({
+      where,
+      offset,
+      limit : pageSize
+    })
+    res.json({
+      list : result.rows,
+      total : result.count
+    })
+  }
+  catch(err){
+    next(err);
+  }
+  
+})
 
 // 向外暴露路由
 module.exports = router;
