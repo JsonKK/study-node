@@ -1,0 +1,12 @@
+this request url is ::::http://10.10.80.203/task/list; 2020-08-01 04:21:54 错误信息是：Unknown column 'todo.DESC' in 'order clause'
+this request url is ::::http://10.10.80.203/task/list; 2020-08-01 04:21:30 错误信息是：Sequelize is not defined
+this request url is ::::http://10.10.80.203/task/list; 2020-08-01 04:20:50 错误信息是：Unknown column 'todo.DESC' in 'order clause'
+this request url is ::::http://10.10.80.203/task/list; 2020-08-01 04:20:34 错误信息是：Unknown column 'todo.DESC' in 'order clause'
+this request url is ::::http://10.10.80.203/task/edit; 2020-08-01 04:07:59 错误信息是：编辑任务失败
+this request url is ::::http://10.10.80.203/task/edit; 2020-08-01 04:07:59 错误信息是：编辑任务失败
+this request url is ::::http://10.10.80.203/task/edit; 2020-08-01 04:07:58 错误信息是：编辑任务失败
+this request url is ::::http://10.10.80.203/task/list; 2020-08-01 03:08:44 错误信息是：页面有误
+this request url is ::::http://10.10.80.203/task/edit/:id/:status; 2020-08-01 03:01:41 错误信息是：Truncated incorrect DOUBLE value: ':id'
+this request url is ::::http://10.10.80.203/task/edit/:id/:status; 2020-08-01 03:00:43 错误信息是：Truncated incorrect DOUBLE value: ':id'
+this request url is ::::http://10.10.80.203/task/edit/:id/:status; 2020-08-01 02:54:11 错误信息是：Truncated incorrect DOUBLE value: ':id'
+this request url is ::::http://10.10.80.203/task/edit/:id/:status?id=7&status=1; 2020-08-01 02:20:43 错误信息是：Truncated incorrect DOUBLE value: ':id'

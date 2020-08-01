@@ -10,6 +10,8 @@ const utils = require('../utils/utils.js');
 const moment = require('moment');
 //引入sequelize
 const sequelize = require('sequelize');
+//引用通用工具累
+const _ = require('underscore');
 const Op = sequelize.Op;
 
 // 定义私有方法
@@ -152,8 +154,8 @@ const private = {
   validateList(req,res,next){
     let statuses = [0,1,2];
     // 从body上获取参数
-    let {pageNum , status , pageSize} = req.body;
-    status = status ? Number(status) : '';
+    let {pageNum , status , pageSize, name} = req.body;
+    status = Number(status) >= 0 ? status : '';
     // 页码不存在
     if(!pageNum){
       throw {
@@ -168,7 +170,7 @@ const private = {
         message : '查询任务状态有误'
       }
     }
-    req.sendData = {pageNum,pageSize,status};
+    req.sendData = {pageNum,pageSize,status, name};
     next();
   }
 }
@@ -283,7 +285,7 @@ router.post('/edit',[private.validateEdit],async (req,res,next)=>{
 
 //获取任务列表带分页
 router.post('/list',[private.validateList],async (req,res,next)=>{
-  let {pageNum,pageSize,status} = req.sendData;
+  let {pageNum,pageSize,status,name} = req.sendData;
   let offset = (pageNum - 1) * pageSize;
   // 查询一般状态，不返回删除的数据
   let where = {
@@ -292,17 +294,24 @@ router.post('/list',[private.validateList],async (req,res,next)=>{
       [Op.not] : 0
     }
   };
+  name = _.isString(name) ? name.trim() : '';
   //如果查询固定状态的数据则传递固定条件
-  if(status || status === 0){
-    where = {
-      status
-    }
+  if(status !== '' && status >= 0){
+    where.status = status;
+  }
+  //如果有标题参数
+  if(name){
+    where.name = {
+      [Op.like] : '%' + name + '%'
+    };
   }
   try{
     let result = await models.todo.findAndCountAll({
       where,
       offset,
-      limit : pageSize
+      limit : pageSize,
+      // order: [sequelize.col('updatedAt'), 'DESC'], 
+      order: [['updatedAt','DESC']],
     })
     res.json({
       list : result.rows,
