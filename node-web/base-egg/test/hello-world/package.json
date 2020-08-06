@@ -1,0 +1,23 @@
+{
+  "name": "base-egg",
+  "version": "1.0.0",
+  "description": "this is a study demo",
+  "main": "index.js",
+  "scripts": {
+    "dev": "egg-bin dev"
+  },
+  "keywords": [
+    "egg",
+    "node",
+    "js"
+  ],
+  "author": "jsonKK",
+  "license": "ISC",
+  "dependencies": {
+    "egg": "^2.27.0",
+    "egg-view-nunjucks": "^2.2.0"
+  },
+  "devDependencies": {
+    "egg-bin": "^4.15.0"
+  }
+}

@@ -1,0 +1,274 @@
+{
+  "keys": "E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\config\\config.default.js",
+  "view": {
+    "defaultViewEngine": "E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\config\\config.default.js",
+    "mapping": {
+      ".html": "E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\config\\config.default.js"
+    },
+    "root": "E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\node_modules\\egg-view\\config\\config.default.js",
+    "cache": "E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\node_modules\\egg-view\\config\\config.local.js",
+    "defaultExtension": "E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\node_modules\\egg-view\\config\\config.default.js"
+  },
+  "session": {
+    "maxAge": "E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\node_modules\\egg-session\\config\\config.default.js",
+    "key": "E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\node_modules\\egg-session\\config\\config.default.js",
+    "httpOnly": "E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\node_modules\\egg-session\\config\\config.default.js",
+    "encrypt": "E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\node_modules\\egg-session\\config\\config.default.js"
+  },
+  "security": {
+    "domainWhiteList": "E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\node_modules\\egg-security\\config\\config.default.js",
+    "protocolWhiteList": "E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\node_modules\\egg-security\\config\\config.default.js",
+    "defaultMiddleware": "E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\node_modules\\egg-security\\config\\config.default.js",
+    "csrf": {
+      "enable": "E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\node_modules\\egg-security\\config\\config.default.js",
+      "type": "E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\node_modules\\egg-security\\config\\config.default.js",
+      "ignoreJSON": "E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\node_modules\\egg-security\\config\\config.default.js",
+      "useSession": "E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\node_modules\\egg-security\\config\\config.default.js",
+      "cookieName": "E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\node_modules\\egg-security\\config\\config.default.js",
+      "sessionName": "E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\node_modules\\egg-security\\config\\config.default.js",
+      "headerName": "E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\node_modules\\egg-security\\config\\config.default.js",
+      "bodyName": "E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\node_modules\\egg-security\\config\\config.default.js",
+      "queryName": "E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\node_modules\\egg-security\\config\\config.default.js",
+      "refererWhiteList": "E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "xframe": {
+      "enable": "E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "hsts": {
+      "enable": "E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\node_modules\\egg-security\\config\\config.local.js",
+      "maxAge": "E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\node_modules\\egg-security\\config\\config.default.js",
+      "includeSubdomains": "E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "dta": {
+      "enable": "E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "noopen": {
+      "enable": "E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "nosniff": {
+      "enable": "E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "xssProtection": {
+      "enable": "E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "csp": {
+      "enable": "E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\node_modules\\egg-security\\config\\config.default.js",
+      "policy": "E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\node_modules\\egg-security\\config\\config.default.js",
+      "checkAddress": "E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\node_modules\\egg-security\\config\\config.default.js"
+    }
+  },
+  "helper": {
+    "shtml": "E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\node_modules\\egg-security\\config\\config.default.js"
+  },
+  "jsonp": {
+    "limit": "E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\node_modules\\egg-jsonp\\config\\config.default.js",
+    "callback": "E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\node_modules\\egg-jsonp\\config\\config.default.js",
+    "csrf": "E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\node_modules\\egg-jsonp\\config\\config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\node_modules\\egg-onerror\\config\\config.default.js",
+    "appErrorFilter": "E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\node_modules\\egg-onerror\\config\\config.default.js",
+    "templatePath": "E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\node_modules\\egg-onerror\\config\\config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\node_modules\\egg-i18n\\config\\config.default.js",
+    "dirs": "E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\node_modules\\egg-i18n\\config\\config.default.js",
+    "queryField": "E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieField": "E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieDomain": "E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieMaxAge": "E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\node_modules\\egg-i18n\\config\\config.default.js"
+  },
+  "watcher": {
+    "type": "E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\node_modules\\egg-watcher\\config\\config.local.js",
+    "eventSources": {
+      "default": "E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\node_modules\\egg-watcher\\config\\config.default.js",
+      "development": "E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\node_modules\\egg-watcher\\config\\config.default.js"
+    }
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\node_modules\\egg-schedule\\config\\config.default.js",
+      "file": "E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\node_modules\\egg-schedule\\config\\config.default.js"
+    }
+  },
+  "schedule": {
+    "directory": "E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\node_modules\\egg-schedule\\config\\config.default.js"
+  },
+  "multipart": {
+    "mode": "E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\node_modules\\egg-multipart\\config\\config.default.js",
+    "autoFields": "E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\node_modules\\egg-multipart\\config\\config.default.js",
+    "defaultCharset": "E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fieldNameSize": "E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fieldSize": "E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fields": "E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fileSize": "E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\node_modules\\egg-multipart\\config\\config.default.js",
+    "files": "E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fileExtensions": "E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\node_modules\\egg-multipart\\config\\config.default.js",
+    "whitelist": "E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\node_modules\\egg-multipart\\config\\config.default.js",
+    "tmpdir": "E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\node_modules\\egg-multipart\\config\\config.default.js",
+    "cleanSchedule": {
+      "cron": "E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\node_modules\\egg-multipart\\config\\config.default.js"
+    }
+  },
+  "development": {
+    "watchDirs": "E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\node_modules\\egg-development\\config\\config.default.js",
+    "ignoreDirs": "E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\node_modules\\egg-development\\config\\config.default.js",
+    "fastReady": "E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\node_modules\\egg-development\\config\\config.default.js",
+    "reloadOnDebug": "E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\node_modules\\egg-development\\config\\config.default.js",
+    "overrideDefault": "E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\node_modules\\egg-development\\config\\config.default.js"
+  },
+  "logrotator": {
+    "filesRotateByHour": "E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "hourDelimiter": "E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "filesRotateBySize": "E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxFileSize": "E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxFiles": "E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "rotateDuration": "E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxDays": "E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\node_modules\\egg-logrotator\\config\\config.default.js"
+  },
+  "static": {
+    "prefix": "E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\node_modules\\egg-static\\config\\config.default.js",
+    "dir": "E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\node_modules\\egg-static\\config\\config.default.js",
+    "dynamic": "E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\node_modules\\egg-static\\config\\config.default.js",
+    "preload": "E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\node_modules\\egg-static\\config\\config.default.js",
+    "buffer": "E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\node_modules\\egg-static\\config\\config.default.js",
+    "maxFiles": "E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\node_modules\\egg-static\\config\\config.default.js"
+  },
+  "nunjucks": {
+    "autoescape": "E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\node_modules\\egg-view-nunjucks\\config\\config.default.js",
+    "throwOnUndefined": "E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\node_modules\\egg-view-nunjucks\\config\\config.default.js",
+    "trimBlocks": "E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\node_modules\\egg-view-nunjucks\\config\\config.default.js",
+    "lstripBlocks": "E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\node_modules\\egg-view-nunjucks\\config\\config.default.js",
+    "cache": "E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\node_modules\\egg-view-nunjucks\\config\\config.local.js"
+  },
+  "env": "E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\node_modules\\egg\\config\\config.default.js",
+  "name": "E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\node_modules\\egg\\config\\config.default.js",
+  "cookies": "E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\node_modules\\egg\\config\\config.default.js",
+  "proxy": "E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\node_modules\\egg\\config\\config.default.js",
+  "maxIpsCount": "E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\node_modules\\egg\\config\\config.default.js",
+  "maxProxyCount": "E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\node_modules\\egg\\config\\config.default.js",
+  "protocolHeaders": "E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\node_modules\\egg\\config\\config.default.js",
+  "ipHeaders": "E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\node_modules\\egg\\config\\config.default.js",
+  "hostHeaders": "E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\node_modules\\egg\\config\\config.default.js",
+  "pkg": {
+    "name": "E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\node_modules\\egg\\config\\config.default.js",
+    "version": "E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\node_modules\\egg\\config\\config.default.js",
+    "description": "E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\node_modules\\egg\\config\\config.default.js",
+    "main": "E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\node_modules\\egg\\config\\config.default.js",
+    "scripts": {
+      "dev": "E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\node_modules\\egg\\config\\config.default.js"
+    },
+    "keywords": "E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\node_modules\\egg\\config\\config.default.js",
+    "author": "E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\node_modules\\egg\\config\\config.default.js",
+    "license": "E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\node_modules\\egg\\config\\config.default.js",
+    "dependencies": {
+      "egg": "E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\node_modules\\egg\\config\\config.default.js",
+      "egg-view-nunjucks": "E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\node_modules\\egg\\config\\config.default.js"
+    },
+    "devDependencies": {
+      "egg-bin": "E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\node_modules\\egg\\config\\config.default.js"
+    }
+  },
+  "baseDir": "E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\node_modules\\egg\\config\\config.default.js",
+  "HOME": "E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\node_modules\\egg\\config\\config.default.js",
+  "rundir": "E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\node_modules\\egg\\config\\config.default.js",
+  "dump": {
+    "ignore": "E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\node_modules\\egg\\config\\config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\node_modules\\egg\\config\\config.default.js",
+    "notFound": "E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\node_modules\\egg\\config\\config.default.js",
+    "sitefile": "E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\node_modules\\egg\\config\\config.default.js",
+    "middlewares": "E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\node_modules\\egg\\config\\config.default.js",
+    "httpClient": "E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\node_modules\\egg\\config\\config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\node_modules\\egg\\config\\config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\node_modules\\egg\\config\\config.default.js"
+  },
+  "bodyParser": {
+    "enable": "E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\node_modules\\egg\\config\\config.default.js",
+    "encoding": "E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\node_modules\\egg\\config\\config.default.js",
+    "formLimit": "E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\node_modules\\egg\\config\\config.default.js",
+    "jsonLimit": "E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\node_modules\\egg\\config\\config.default.js",
+    "textLimit": "E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\node_modules\\egg\\config\\config.default.js",
+    "strict": "E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\node_modules\\egg\\config\\config.default.js",
+    "queryString": {
+      "arrayLimit": "E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\node_modules\\egg\\config\\config.default.js",
+      "depth": "E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\node_modules\\egg\\config\\config.default.js",
+      "parameterLimit": "E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\node_modules\\egg\\config\\config.default.js"
+    },
+    "onerror": "E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\node_modules\\egg\\config\\config.default.js"
+  },
+  "logger": {
+    "dir": "E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\node_modules\\egg\\config\\config.default.js",
+    "encoding": "E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\node_modules\\egg\\config\\config.default.js",
+    "env": "E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\node_modules\\egg\\config\\config.default.js",
+    "level": "E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\node_modules\\egg\\config\\config.default.js",
+    "consoleLevel": "E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\node_modules\\egg\\config\\config.default.js",
+    "disableConsoleAfterReady": "E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\node_modules\\egg\\config\\config.default.js",
+    "outputJSON": "E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\node_modules\\egg\\config\\config.default.js",
+    "buffer": "E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\node_modules\\egg\\config\\config.default.js",
+    "appLogName": "E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\node_modules\\egg\\config\\config.default.js",
+    "coreLogName": "E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\node_modules\\egg\\config\\config.default.js",
+    "agentLogName": "E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\node_modules\\egg\\config\\config.default.js",
+    "errorLogName": "E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\node_modules\\egg\\config\\config.default.js",
+    "coreLogger": {
+      "consoleLevel": "E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\node_modules\\egg\\config\\config.local.js"
+    },
+    "allowDebugAtProd": "E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\node_modules\\egg\\config\\config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\node_modules\\egg\\config\\config.default.js",
+    "dnsCacheLookupInterval": "E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\node_modules\\egg\\config\\config.default.js",
+    "dnsCacheMaxLength": "E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\node_modules\\egg\\config\\config.default.js",
+    "request": {
+      "timeout": "E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\node_modules\\egg\\config\\config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\node_modules\\egg\\config\\config.default.js",
+      "freeSocketTimeout": "E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\node_modules\\egg\\config\\config.default.js",
+      "maxSockets": "E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\node_modules\\egg\\config\\config.default.js",
+      "maxFreeSockets": "E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\node_modules\\egg\\config\\config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\node_modules\\egg\\config\\config.default.js",
+      "freeSocketTimeout": "E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\node_modules\\egg\\config\\config.default.js",
+      "maxSockets": "E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\node_modules\\egg\\config\\config.default.js",
+      "maxFreeSockets": "E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\node_modules\\egg\\config\\config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\node_modules\\egg\\config\\config.default.js",
+    "logging": "E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\node_modules\\egg\\config\\config.default.js"
+  },
+  "coreMiddleware": "E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\node_modules\\egg\\config\\config.default.js",
+  "workerStartTimeout": "E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\node_modules\\egg\\config\\config.default.js",
+  "serverTimeout": "E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\node_modules\\egg\\config\\config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\node_modules\\egg\\config\\config.default.js",
+      "port": "E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\node_modules\\egg\\config\\config.default.js",
+      "hostname": "E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\node_modules\\egg\\config\\config.default.js"
+    }
+  },
+  "clusterClient": {
+    "maxWaitTime": "E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\node_modules\\egg\\config\\config.default.js",
+    "responseTimeout": "E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\node_modules\\egg\\config\\config.default.js"
+  },
+  "onClientError": "E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\node_modules\\egg\\config\\config.default.js"
+}

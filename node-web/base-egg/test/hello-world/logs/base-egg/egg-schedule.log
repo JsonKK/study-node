@@ -1,0 +1,36 @@
+2020-08-05 20:18:22,122 INFO 4788 [egg-schedule]: register schedule E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-08-05 20:18:22,122 INFO 4788 [egg-schedule]: register schedule E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-08-05 20:18:22,122 INFO 4788 [egg-schedule]: register schedule E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-08-05 20:18:22,405 INFO 23836 [Timer] E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 29497600ms at 2020-08-06 04:30:00.005
+2020-08-05 20:18:22,405 INFO 23836 [Timer] E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 13297595ms at 2020-08-06 00:00:00.000
+2020-08-05 20:18:22,407 INFO 23836 [Timer] E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 13298594ms at 2020-08-06 00:00:01.000
+2020-08-06 08:45:25,541 INFO 28896 [egg-schedule]: register schedule E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-08-06 08:45:25,541 INFO 28896 [egg-schedule]: register schedule E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-08-06 08:45:25,541 INFO 28896 [egg-schedule]: register schedule E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-08-06 08:45:25,829 INFO 27364 [Timer] E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 71074179ms at 2020-08-07 04:30:00.008
+2020-08-06 08:45:25,831 INFO 27364 [Timer] E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 54874170ms at 2020-08-07 00:00:00.001
+2020-08-06 08:45:25,833 INFO 27364 [Timer] E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 54875167ms at 2020-08-07 00:00:01.000
+2020-08-06 08:46:57,103 INFO 19496 [egg-schedule]: register schedule E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-08-06 08:46:57,103 INFO 19496 [egg-schedule]: register schedule E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-08-06 08:46:57,103 INFO 19496 [egg-schedule]: register schedule E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-08-06 08:54:29,001 INFO 29304 [egg-schedule]: register schedule E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-08-06 08:54:29,002 INFO 29304 [egg-schedule]: register schedule E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-08-06 08:54:29,002 INFO 29304 [egg-schedule]: register schedule E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-08-06 08:57:20,779 INFO 16572 [egg-schedule]: register schedule E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-08-06 08:57:20,779 INFO 16572 [egg-schedule]: register schedule E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-08-06 08:57:20,779 INFO 16572 [egg-schedule]: register schedule E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-08-06 08:57:40,665 INFO 16392 [egg-schedule]: register schedule E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-08-06 08:57:40,665 INFO 16392 [egg-schedule]: register schedule E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-08-06 08:57:40,665 INFO 16392 [egg-schedule]: register schedule E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-08-06 08:59:15,765 INFO 23576 [egg-schedule]: register schedule E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-08-06 08:59:15,765 INFO 23576 [egg-schedule]: register schedule E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-08-06 08:59:15,765 INFO 23576 [egg-schedule]: register schedule E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-08-06 08:59:26,698 INFO 12432 [egg-schedule]: register schedule E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-08-06 08:59:26,699 INFO 12432 [egg-schedule]: register schedule E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-08-06 08:59:26,699 INFO 12432 [egg-schedule]: register schedule E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-08-06 09:18:51,488 INFO 29368 [Timer] E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 69068518ms at 2020-08-07 04:30:00.006
+2020-08-06 09:18:51,489 INFO 29368 [Timer] E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 52868511ms at 2020-08-07 00:00:00.000
+2020-08-06 09:18:51,490 INFO 29368 [Timer] E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 52869511ms at 2020-08-07 00:00:01.001
+2020-08-06 09:18:51,185 INFO 13208 [egg-schedule]: register schedule E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-08-06 09:18:51,185 INFO 13208 [egg-schedule]: register schedule E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-08-06 09:18:51,185 INFO 13208 [egg-schedule]: register schedule E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-logrotator\app\schedule\rotate_by_file.js

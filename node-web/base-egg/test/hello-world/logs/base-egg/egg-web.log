@@ -1,0 +1,127 @@
+2020-08-05 20:18:22,064 INFO 4788 [egg:logger] init all loggers with options: {"dir":"E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\logs\\base-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"base-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-08-05 20:18:22,125 INFO 4788 [egg-multipart] stream mode enable
+2020-08-05 20:18:22,297 INFO 4788 [egg-static] starting static serve /public/ -> E:\jsonKK\study\node\node-web\base-egg\test\hello-world\app\public
+2020-08-05 20:18:22,302 INFO 4788 [egg-security] use csrf middleware
+2020-08-05 20:18:22,304 INFO 4788 [egg-security] use methodnoallow middleware
+2020-08-05 20:18:22,305 INFO 4788 [egg-security] use noopen middleware
+2020-08-05 20:18:22,308 INFO 4788 [egg-security] use nosniff middleware
+2020-08-05 20:18:22,309 INFO 4788 [egg-security] use xssProtection middleware
+2020-08-05 20:18:22,311 INFO 4788 [egg-security] use xframe middleware
+2020-08-05 20:18:22,312 INFO 4788 [egg-security] use dta middleware
+2020-08-05 20:18:22,312 INFO 4788 [egg-security] compose 7 middlewares into one security middleware
+2020-08-05 20:18:22,334 INFO 4788 [egg:core] dump config after load, 11ms
+2020-08-05 20:18:22,370 INFO 4788 [egg-watcher:application] watcher start success
+2020-08-05 20:18:22,387 INFO 4788 [egg:core] dump config after ready, 9ms
+2020-08-06 08:45:25,470 INFO 28896 [egg:logger] init all loggers with options: {"dir":"E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\logs\\base-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"base-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-08-06 08:45:25,542 INFO 28896 [egg-multipart] stream mode enable
+2020-08-06 08:45:25,717 INFO 28896 [egg-static] starting static serve /public/ -> E:\jsonKK\study\node\node-web\base-egg\test\hello-world\app\public
+2020-08-06 08:45:25,723 INFO 28896 [egg-security] use csrf middleware
+2020-08-06 08:45:25,725 INFO 28896 [egg-security] use methodnoallow middleware
+2020-08-06 08:45:25,726 INFO 28896 [egg-security] use noopen middleware
+2020-08-06 08:45:25,727 INFO 28896 [egg-security] use nosniff middleware
+2020-08-06 08:45:25,728 INFO 28896 [egg-security] use xssProtection middleware
+2020-08-06 08:45:25,729 INFO 28896 [egg-security] use xframe middleware
+2020-08-06 08:45:25,731 INFO 28896 [egg-security] use dta middleware
+2020-08-06 08:45:25,731 INFO 28896 [egg-security] compose 7 middlewares into one security middleware
+2020-08-06 08:45:25,749 INFO 28896 [egg:core] dump config after load, 9ms
+2020-08-06 08:45:25,791 INFO 28896 [egg-watcher:application] watcher start success
+2020-08-06 08:45:25,807 INFO 28896 [egg:core] dump config after ready, 9ms
+2020-08-06 08:46:57,045 INFO 19496 [egg:logger] init all loggers with options: {"dir":"E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\logs\\base-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"base-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-08-06 08:46:57,105 INFO 19496 [egg-multipart] stream mode enable
+2020-08-06 08:46:57,275 INFO 19496 [egg-static] starting static serve /public/ -> E:\jsonKK\study\node\node-web\base-egg\test\hello-world\app\public
+2020-08-06 08:46:57,280 INFO 19496 [egg-security] use csrf middleware
+2020-08-06 08:46:57,282 INFO 19496 [egg-security] use methodnoallow middleware
+2020-08-06 08:46:57,283 INFO 19496 [egg-security] use noopen middleware
+2020-08-06 08:46:57,285 INFO 19496 [egg-security] use nosniff middleware
+2020-08-06 08:46:57,286 INFO 19496 [egg-security] use xssProtection middleware
+2020-08-06 08:46:57,287 INFO 19496 [egg-security] use xframe middleware
+2020-08-06 08:46:57,288 INFO 19496 [egg-security] use dta middleware
+2020-08-06 08:46:57,288 INFO 19496 [egg-security] compose 7 middlewares into one security middleware
+2020-08-06 08:46:57,307 INFO 19496 [egg:core] dump config after load, 10ms
+2020-08-06 08:46:57,327 INFO 19496 [egg-watcher:application] watcher start success
+2020-08-06 08:46:57,339 INFO 19496 [egg:core] dump config after ready, 8ms
+2020-08-06 08:54:28,954 INFO 29304 [egg:logger] init all loggers with options: {"dir":"E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\logs\\base-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"base-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-08-06 08:54:29,002 INFO 29304 [egg-multipart] stream mode enable
+2020-08-06 08:54:29,139 INFO 29304 [egg-static] starting static serve /public/ -> E:\jsonKK\study\node\node-web\base-egg\test\hello-world\app\public
+2020-08-06 08:54:29,147 INFO 29304 [egg-security] use csrf middleware
+2020-08-06 08:54:29,151 INFO 29304 [egg-security] use methodnoallow middleware
+2020-08-06 08:54:29,153 INFO 29304 [egg-security] use noopen middleware
+2020-08-06 08:54:29,155 INFO 29304 [egg-security] use nosniff middleware
+2020-08-06 08:54:29,156 INFO 29304 [egg-security] use xssProtection middleware
+2020-08-06 08:54:29,157 INFO 29304 [egg-security] use xframe middleware
+2020-08-06 08:54:29,159 INFO 29304 [egg-security] use dta middleware
+2020-08-06 08:54:29,159 INFO 29304 [egg-security] compose 7 middlewares into one security middleware
+2020-08-06 08:54:29,186 INFO 29304 [egg:core] dump config after load, 15ms
+2020-08-06 08:54:29,210 INFO 29304 [egg-watcher:application] watcher start success
+2020-08-06 08:54:29,225 INFO 29304 [egg:core] dump config after ready, 11ms
+2020-08-06 08:57:20,712 INFO 16572 [egg:logger] init all loggers with options: {"dir":"E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\logs\\base-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"base-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-08-06 08:57:20,780 INFO 16572 [egg-multipart] stream mode enable
+2020-08-06 08:57:21,108 INFO 16572 [egg-static] starting static serve /public/ -> E:\jsonKK\study\node\node-web\base-egg\test\hello-world\app\public
+2020-08-06 08:57:21,115 INFO 16572 [egg-security] use csrf middleware
+2020-08-06 08:57:21,120 INFO 16572 [egg-security] use methodnoallow middleware
+2020-08-06 08:57:21,122 INFO 16572 [egg-security] use noopen middleware
+2020-08-06 08:57:21,124 INFO 16572 [egg-security] use nosniff middleware
+2020-08-06 08:57:21,125 INFO 16572 [egg-security] use xssProtection middleware
+2020-08-06 08:57:21,127 INFO 16572 [egg-security] use xframe middleware
+2020-08-06 08:57:21,128 INFO 16572 [egg-security] use dta middleware
+2020-08-06 08:57:21,128 INFO 16572 [egg-security] compose 7 middlewares into one security middleware
+2020-08-06 08:57:21,155 INFO 16572 [egg:core] dump config after load, 11ms
+2020-08-06 08:57:21,176 INFO 16572 [egg-watcher:application] watcher start success
+2020-08-06 08:57:21,189 INFO 16572 [egg:core] dump config after ready, 9ms
+2020-08-06 08:57:40,612 INFO 16392 [egg:logger] init all loggers with options: {"dir":"E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\logs\\base-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"base-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-08-06 08:57:40,668 INFO 16392 [egg-multipart] stream mode enable
+2020-08-06 08:57:40,844 INFO 16392 [egg-static] starting static serve /public/ -> E:\jsonKK\study\node\node-web\base-egg\test\hello-world\app\public
+2020-08-06 08:57:40,852 INFO 16392 [egg-security] use csrf middleware
+2020-08-06 08:57:40,854 INFO 16392 [egg-security] use methodnoallow middleware
+2020-08-06 08:57:40,855 INFO 16392 [egg-security] use noopen middleware
+2020-08-06 08:57:40,857 INFO 16392 [egg-security] use nosniff middleware
+2020-08-06 08:57:40,858 INFO 16392 [egg-security] use xssProtection middleware
+2020-08-06 08:57:40,859 INFO 16392 [egg-security] use xframe middleware
+2020-08-06 08:57:40,860 INFO 16392 [egg-security] use dta middleware
+2020-08-06 08:57:40,860 INFO 16392 [egg-security] compose 7 middlewares into one security middleware
+2020-08-06 08:57:40,882 INFO 16392 [egg:core] dump config after load, 8ms
+2020-08-06 08:57:40,901 INFO 16392 [egg-watcher:application] watcher start success
+2020-08-06 08:57:40,916 INFO 16392 [egg:core] dump config after ready, 10ms
+2020-08-06 08:59:15,702 INFO 23576 [egg:logger] init all loggers with options: {"dir":"E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\logs\\base-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"base-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-08-06 08:59:15,766 INFO 23576 [egg-multipart] stream mode enable
+2020-08-06 08:59:15,924 INFO 23576 [egg-static] starting static serve /public/ -> E:\jsonKK\study\node\node-web\base-egg\test\hello-world\app\public
+2020-08-06 08:59:15,929 INFO 23576 [egg-security] use csrf middleware
+2020-08-06 08:59:15,932 INFO 23576 [egg-security] use methodnoallow middleware
+2020-08-06 08:59:15,933 INFO 23576 [egg-security] use noopen middleware
+2020-08-06 08:59:15,935 INFO 23576 [egg-security] use nosniff middleware
+2020-08-06 08:59:15,936 INFO 23576 [egg-security] use xssProtection middleware
+2020-08-06 08:59:15,937 INFO 23576 [egg-security] use xframe middleware
+2020-08-06 08:59:15,938 INFO 23576 [egg-security] use dta middleware
+2020-08-06 08:59:15,938 INFO 23576 [egg-security] compose 7 middlewares into one security middleware
+2020-08-06 08:59:15,960 INFO 23576 [egg:core] dump config after load, 10ms
+2020-08-06 08:59:15,978 INFO 23576 [egg-watcher:application] watcher start success
+2020-08-06 08:59:15,990 INFO 23576 [egg:core] dump config after ready, 8ms
+2020-08-06 08:59:26,630 INFO 12432 [egg:logger] init all loggers with options: {"dir":"E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\logs\\base-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"base-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-08-06 08:59:26,701 INFO 12432 [egg-multipart] stream mode enable
+2020-08-06 08:59:26,884 INFO 12432 [egg-static] starting static serve /public/ -> E:\jsonKK\study\node\node-web\base-egg\test\hello-world\app\public
+2020-08-06 08:59:26,889 INFO 12432 [egg-security] use csrf middleware
+2020-08-06 08:59:26,892 INFO 12432 [egg-security] use methodnoallow middleware
+2020-08-06 08:59:26,893 INFO 12432 [egg-security] use noopen middleware
+2020-08-06 08:59:26,896 INFO 12432 [egg-security] use nosniff middleware
+2020-08-06 08:59:26,898 INFO 12432 [egg-security] use xssProtection middleware
+2020-08-06 08:59:26,900 INFO 12432 [egg-security] use xframe middleware
+2020-08-06 08:59:26,901 INFO 12432 [egg-security] use dta middleware
+2020-08-06 08:59:26,901 INFO 12432 [egg-security] compose 7 middlewares into one security middleware
+2020-08-06 08:59:26,919 INFO 12432 [egg:core] dump config after load, 8ms
+2020-08-06 08:59:26,941 INFO 12432 [egg-watcher:application] watcher start success
+2020-08-06 08:59:26,952 INFO 12432 [egg:core] dump config after ready, 7ms
+2020-08-06 09:18:51,132 INFO 13208 [egg:logger] init all loggers with options: {"dir":"E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\logs\\base-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"base-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-08-06 09:18:51,188 INFO 13208 [egg-multipart] stream mode enable
+2020-08-06 09:18:51,395 INFO 13208 [egg-static] starting static serve /public/ -> E:\jsonKK\study\node\node-web\base-egg\test\hello-world\app\public
+2020-08-06 09:18:51,403 INFO 13208 [egg-security] use csrf middleware
+2020-08-06 09:18:51,406 INFO 13208 [egg-security] use methodnoallow middleware
+2020-08-06 09:18:51,408 INFO 13208 [egg-security] use noopen middleware
+2020-08-06 09:18:51,409 INFO 13208 [egg-security] use nosniff middleware
+2020-08-06 09:18:51,410 INFO 13208 [egg-security] use xssProtection middleware
+2020-08-06 09:18:51,411 INFO 13208 [egg-security] use xframe middleware
+2020-08-06 09:18:51,414 INFO 13208 [egg-security] use dta middleware
+2020-08-06 09:18:51,414 INFO 13208 [egg-security] compose 7 middlewares into one security middleware
+2020-08-06 09:18:51,436 INFO 13208 [egg:core] dump config after load, 9ms
+2020-08-06 09:18:51,459 INFO 13208 [egg-watcher:application] watcher start success
+2020-08-06 09:18:51,472 INFO 13208 [egg:core] dump config after ready, 11ms
+2020-08-06 09:18:54,278 INFO 13208 [egg-view-nunjucks] loading templates from ["E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\app\\view"]

@@ -1,0 +1,104 @@
+2020-08-06 08:45:37,889 ERROR 28896 [-/127.0.0.1/-/4ms GET /news] nodejs.AssertionError: Can't find news/list.html from 
+    at Map.resolve (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-view\lib\view_manager.js:74:5)
+    at processTicksAndRejections (internal/process/task_queues.js:85:5)
+    at async ContextView.[contextView#render] (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-view\lib\context_view.js:50:22)
+    at async NewsController.list (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\app\controller\news.js:11:5)
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 28896
+hostname: DESKTOP-F4C88D7
+
+2020-08-06 08:47:10,368 ERROR 19496 [-/127.0.0.1/-/9ms GET /news] nodejs.AssertionError: Can't find views/list.html from 
+    at Map.resolve (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-view\lib\view_manager.js:74:5)
+    at processTicksAndRejections (internal/process/task_queues.js:85:5)
+    at async ContextView.[contextView#render] (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-view\lib\context_view.js:50:22)
+    at async NewsController.list (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\app\controller\news.js:11:5)
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 19496
+hostname: DESKTOP-F4C88D7
+
+2020-08-06 08:57:22,799 ERROR 16572 [-/127.0.0.1/-/7ms GET /news] nodejs.AssertionError: Can't find ./list.html from 
+    at Map.resolve (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-view\lib\view_manager.js:74:5)
+    at processTicksAndRejections (internal/process/task_queues.js:85:5)
+    at async ContextView.[contextView#render] (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-view\lib\context_view.js:50:22)
+    at async NewsController.list (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\app\controller\news.js:11:5)
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 16572
+hostname: DESKTOP-F4C88D7
+
+2020-08-06 08:57:58,218 ERROR 16392 [-/127.0.0.1/-/8ms GET /news] nodejs.AssertionError: Can't find /news/list.html from 
+    at Map.resolve (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-view\lib\view_manager.js:74:5)
+    at processTicksAndRejections (internal/process/task_queues.js:85:5)
+    at async ContextView.[contextView#render] (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-view\lib\context_view.js:50:22)
+    at async NewsController.list (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\app\controller\news.js:11:5)
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 16392
+hostname: DESKTOP-F4C88D7
+
+2020-08-06 08:58:00,781 ERROR 16392 [-/127.0.0.1/-/3ms GET /news] nodejs.AssertionError: Can't find /news/list.html from 
+    at Map.resolve (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-view\lib\view_manager.js:74:5)
+    at processTicksAndRejections (internal/process/task_queues.js:85:5)
+    at async ContextView.[contextView#render] (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-view\lib\context_view.js:50:22)
+    at async NewsController.list (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\app\controller\news.js:11:5)
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 16392
+hostname: DESKTOP-F4C88D7
+
+2020-08-06 08:58:16,913 ERROR 16392 [-/127.0.0.1/-/1ms GET /news] nodejs.AssertionError: Can't find /news/list.html from 
+    at Map.resolve (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-view\lib\view_manager.js:74:5)
+    at processTicksAndRejections (internal/process/task_queues.js:85:5)
+    at async ContextView.[contextView#render] (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-view\lib\context_view.js:50:22)
+    at async NewsController.list (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\app\controller\news.js:11:5)
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 16392
+hostname: DESKTOP-F4C88D7
+
+2020-08-06 08:58:29,235 ERROR 16392 [-/127.0.0.1/-/0ms GET /news] nodejs.AssertionError: Can't find /news/list.html from 
+    at Map.resolve (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-view\lib\view_manager.js:74:5)
+    at processTicksAndRejections (internal/process/task_queues.js:85:5)
+    at async ContextView.[contextView#render] (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-view\lib\context_view.js:50:22)
+    at async NewsController.list (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\app\controller\news.js:11:5)
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 16392
+hostname: DESKTOP-F4C88D7
+
+2020-08-06 09:17:52,018 ERROR 12432 [-/127.0.0.1/-/7ms GET /news] nodejs.AssertionError: Can't find /news/list.html from 
+    at Map.resolve (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-view\lib\view_manager.js:74:5)
+    at processTicksAndRejections (internal/process/task_queues.js:85:5)
+    at async ContextView.[contextView#render] (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-view\lib\context_view.js:50:22)
+    at async NewsController.list (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\app\controller\news.js:11:5)
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 12432
+hostname: DESKTOP-F4C88D7
+
