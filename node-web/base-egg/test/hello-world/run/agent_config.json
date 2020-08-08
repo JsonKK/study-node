@@ -287,6 +287,10 @@
       "responseTimeout": 60000
     },
     "onClientError": null,
+    "news": {
+      "pageSize": 5,
+      "serverUrl": "http://10.10.98.225:3000/news"
+    },
     "coreMiddlewares": "~config~coreMiddleware",
     "appMiddlewares": [],
     "appMiddleware": "~config~appMiddlewares"

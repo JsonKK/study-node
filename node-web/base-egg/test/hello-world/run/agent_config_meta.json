@@ -9,6 +9,10 @@
     "cache": "E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\node_modules\\egg-view\\config\\config.local.js",
     "defaultExtension": "E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\node_modules\\egg-view\\config\\config.default.js"
   },
+  "news": {
+    "pageSize": "E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\config\\config.default.js",
+    "serverUrl": "E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\config\\config.default.js"
+  },
   "session": {
     "maxAge": "E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\node_modules\\egg-session\\config\\config.default.js",
     "key": "E:\\jsonKK\\study\\node\\node-web\\base-egg\\test\\hello-world\\node_modules\\egg-session\\config\\config.default.js",

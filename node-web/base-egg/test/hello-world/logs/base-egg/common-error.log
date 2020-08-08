@@ -1,104 +1,1995 @@
-2020-08-06 08:45:37,889 ERROR 28896 [-/127.0.0.1/-/4ms GET /news] nodejs.AssertionError: Can't find news/list.html from 
-    at Map.resolve (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-view\lib\view_manager.js:74:5)
-    at processTicksAndRejections (internal/process/task_queues.js:85:5)
-    at async ContextView.[contextView#render] (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-view\lib\context_view.js:50:22)
-    at async NewsController.list (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\app\controller\news.js:11:5)
-generatedMessage: false
-code: "ERR_ASSERTION"
-actual: undefined
-expected: true
-operator: "=="
-pid: 28896
+2020-08-08 07:30:22,749 ERROR 11996 nodejs.ClusterClientNoResponseError: client no response in 17677771ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 11996
 hostname: DESKTOP-F4C88D7
 
-2020-08-06 08:47:10,368 ERROR 19496 [-/127.0.0.1/-/9ms GET /news] nodejs.AssertionError: Can't find views/list.html from 
-    at Map.resolve (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-view\lib\view_manager.js:74:5)
+2020-08-08 08:31:22,684 ERROR 12116 [-/10.10.98.225/-/40ms GET /news] nodejs.TypeError: idList.map is not a function
+    at NewsService.list (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\app\service\news.js:17:14)
     at processTicksAndRejections (internal/process/task_queues.js:85:5)
-    at async ContextView.[contextView#render] (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-view\lib\context_view.js:50:22)
-    at async NewsController.list (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\app\controller\news.js:11:5)
-generatedMessage: false
-code: "ERR_ASSERTION"
-actual: undefined
-expected: true
-operator: "=="
-pid: 19496
+    at async NewsController.list (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\app\controller\news.js:7:22)
+    at async E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 12116
 hostname: DESKTOP-F4C88D7
 
-2020-08-06 08:57:22,799 ERROR 16572 [-/127.0.0.1/-/7ms GET /news] nodejs.AssertionError: Can't find ./list.html from 
-    at Map.resolve (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-view\lib\view_manager.js:74:5)
+2020-08-08 08:32:15,703 ERROR 1448 [-/10.10.98.225/-/36ms GET /news] nodejs.ReferenceError: Cannot access 'newsList' before initialization
+    at NewsService.list (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\app\service\news.js:14:13)
     at processTicksAndRejections (internal/process/task_queues.js:85:5)
-    at async ContextView.[contextView#render] (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-view\lib\context_view.js:50:22)
-    at async NewsController.list (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\app\controller\news.js:11:5)
-generatedMessage: false
-code: "ERR_ASSERTION"
-actual: undefined
-expected: true
-operator: "=="
-pid: 16572
+    at async NewsController.list (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\app\controller\news.js:7:22)
+    at async E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 1448
 hostname: DESKTOP-F4C88D7
 
-2020-08-06 08:57:58,218 ERROR 16392 [-/127.0.0.1/-/8ms GET /news] nodejs.AssertionError: Can't find /news/list.html from 
-    at Map.resolve (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-view\lib\view_manager.js:74:5)
+2020-08-08 08:32:26,850 ERROR 1448 [-/10.10.98.225/-/8ms GET /news] nodejs.ReferenceError: Cannot access 'newsList' before initialization
+    at NewsService.list (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\app\service\news.js:14:13)
     at processTicksAndRejections (internal/process/task_queues.js:85:5)
-    at async ContextView.[contextView#render] (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-view\lib\context_view.js:50:22)
-    at async NewsController.list (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\app\controller\news.js:11:5)
-generatedMessage: false
-code: "ERR_ASSERTION"
-actual: undefined
-expected: true
-operator: "=="
-pid: 16392
+    at async NewsController.list (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\app\controller\news.js:7:22)
+    at async E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 1448
 hostname: DESKTOP-F4C88D7
 
-2020-08-06 08:58:00,781 ERROR 16392 [-/127.0.0.1/-/3ms GET /news] nodejs.AssertionError: Can't find /news/list.html from 
-    at Map.resolve (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-view\lib\view_manager.js:74:5)
+2020-08-08 08:34:27,403 ERROR 15524 [-/10.10.98.225/-/36ms GET /news] nodejs.TypeError: idList.map is not a function
+    at NewsService.list (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\app\service\news.js:18:14)
     at processTicksAndRejections (internal/process/task_queues.js:85:5)
-    at async ContextView.[contextView#render] (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-view\lib\context_view.js:50:22)
-    at async NewsController.list (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\app\controller\news.js:11:5)
-generatedMessage: false
-code: "ERR_ASSERTION"
-actual: undefined
-expected: true
-operator: "=="
-pid: 16392
+    at async NewsController.list (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\app\controller\news.js:7:22)
+    at async E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 15524
 hostname: DESKTOP-F4C88D7
 
-2020-08-06 08:58:16,913 ERROR 16392 [-/127.0.0.1/-/1ms GET /news] nodejs.AssertionError: Can't find /news/list.html from 
-    at Map.resolve (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-view\lib\view_manager.js:74:5)
+2020-08-08 08:35:07,423 ERROR 15524 [-/10.10.98.225/-/11ms GET /news] nodejs.TypeError: idList.map is not a function
+    at NewsService.list (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\app\service\news.js:18:14)
     at processTicksAndRejections (internal/process/task_queues.js:85:5)
-    at async ContextView.[contextView#render] (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-view\lib\context_view.js:50:22)
-    at async NewsController.list (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\app\controller\news.js:11:5)
-generatedMessage: false
-code: "ERR_ASSERTION"
-actual: undefined
-expected: true
-operator: "=="
-pid: 16392
+    at async NewsController.list (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\app\controller\news.js:7:22)
+    at async E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 15524
 hostname: DESKTOP-F4C88D7
 
-2020-08-06 08:58:29,235 ERROR 16392 [-/127.0.0.1/-/0ms GET /news] nodejs.AssertionError: Can't find /news/list.html from 
-    at Map.resolve (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-view\lib\view_manager.js:74:5)
+2020-08-08 08:35:55,275 ERROR 3280 [-/10.10.98.225/-/37ms GET /news] nodejs.TypeError: idList.map is not a function
+    at NewsService.list (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\app\service\news.js:18:14)
     at processTicksAndRejections (internal/process/task_queues.js:85:5)
-    at async ContextView.[contextView#render] (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-view\lib\context_view.js:50:22)
-    at async NewsController.list (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\app\controller\news.js:11:5)
-generatedMessage: false
-code: "ERR_ASSERTION"
-actual: undefined
-expected: true
-operator: "=="
-pid: 16392
+    at async NewsController.list (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\app\controller\news.js:7:22)
+    at async E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 3280
 hostname: DESKTOP-F4C88D7
 
-2020-08-06 09:17:52,018 ERROR 12432 [-/127.0.0.1/-/7ms GET /news] nodejs.AssertionError: Can't find /news/list.html from 
-    at Map.resolve (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-view\lib\view_manager.js:74:5)
+2020-08-08 08:36:24,163 ERROR 18512 [-/10.10.98.225/-/38ms GET /news] nodejs.TypeError: idList.map is not a function
+    at NewsService.list (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\app\service\news.js:18:14)
     at processTicksAndRejections (internal/process/task_queues.js:85:5)
-    at async ContextView.[contextView#render] (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-view\lib\context_view.js:50:22)
-    at async NewsController.list (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\app\controller\news.js:11:5)
-generatedMessage: false
-code: "ERR_ASSERTION"
-actual: undefined
-expected: true
-operator: "=="
-pid: 12432
+    at async NewsController.list (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\app\controller\news.js:7:22)
+    at async E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 18512
+hostname: DESKTOP-F4C88D7
+
+2020-08-08 08:37:21,449 ERROR 18512 [-/10.10.98.225/-/50ms GET /news] nodejs.TypeError: idList.map is not a function
+    at NewsService.list (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\app\service\news.js:18:14)
+    at processTicksAndRejections (internal/process/task_queues.js:85:5)
+    at async NewsController.list (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\app\controller\news.js:7:22)
+    at async E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 18512
+hostname: DESKTOP-F4C88D7
+
+2020-08-08 08:37:43,201 ERROR 22396 [-/10.10.98.225/-/43ms GET /news] nodejs.SyntaxError: Unexpected token o in JSON at position 1
+    at JSON.parse (<anonymous>)
+    at NewsService.list (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\app\service\news.js:14:19)
+    at processTicksAndRejections (internal/process/task_queues.js:85:5)
+    at async NewsController.list (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\app\controller\news.js:7:22)
+    at async E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\koa-session\index.js:41:7)
+
+pid: 22396
+hostname: DESKTOP-F4C88D7
+
+2020-08-08 08:38:07,924 ERROR 22396 [-/10.10.98.225/-/15ms GET /news] nodejs.SyntaxError: Unexpected token o in JSON at position 1
+    at JSON.parse (<anonymous>)
+    at NewsService.list (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\app\service\news.js:14:19)
+    at processTicksAndRejections (internal/process/task_queues.js:85:5)
+    at async NewsController.list (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\app\controller\news.js:7:22)
+    at async E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\koa-session\index.js:41:7)
+
+pid: 22396
+hostname: DESKTOP-F4C88D7
+
+2020-08-08 08:38:24,605 ERROR 23484 [-/10.10.98.225/-/27ms GET /news] nodejs.SyntaxError: Unexpected token o in JSON at position 1
+    at JSON.parse (<anonymous>)
+    at NewsService.list (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\app\service\news.js:14:19)
+    at processTicksAndRejections (internal/process/task_queues.js:85:5)
+    at async NewsController.list (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\app\controller\news.js:7:22)
+    at async E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\koa-session\index.js:41:7)
+
+pid: 23484
+hostname: DESKTOP-F4C88D7
+
+2020-08-08 08:51:24,388 ERROR 17980 [-/10.10.98.225/-/46ms GET /news] nodejs.SyntaxError: Unexpected token o in JSON at position 1
+    at JSON.parse (<anonymous>)
+    at NewsService.list (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\app\service\news.js:14:19)
+    at processTicksAndRejections (internal/process/task_queues.js:85:5)
+    at async NewsController.list (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\app\controller\news.js:7:22)
+    at async E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\koa-session\index.js:41:7)
+
+pid: 17980
+hostname: DESKTOP-F4C88D7
+
+2020-08-08 08:52:13,946 ERROR 1596 [-/10.10.98.225/-/33ms GET /news] nodejs.TypeError: idList.map is not a function
+    at NewsService.list (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\app\service\news.js:19:14)
+    at processTicksAndRejections (internal/process/task_queues.js:85:5)
+    at async NewsController.list (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\app\controller\news.js:7:22)
+    at async E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 1596
+hostname: DESKTOP-F4C88D7
+
+2020-08-08 08:52:55,969 ERROR 1596 [-/10.10.98.225/-/12ms GET /news] nodejs.TypeError: idList.map is not a function
+    at NewsService.list (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\app\service\news.js:19:14)
+    at processTicksAndRejections (internal/process/task_queues.js:85:5)
+    at async NewsController.list (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\app\controller\news.js:7:22)
+    at async E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 1596
+hostname: DESKTOP-F4C88D7
+
+2020-08-08 08:53:04,360 ERROR 3428 [-/10.10.98.225/-/26ms GET /news] nodejs.TypeError: Assignment to constant variable.
+    at NewsService.list (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\app\service\news.js:14:12)
+    at processTicksAndRejections (internal/process/task_queues.js:85:5)
+    at async NewsController.list (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\app\controller\news.js:7:22)
+    at async E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 3428
+hostname: DESKTOP-F4C88D7
+
+2020-08-08 08:53:42,658 ERROR 18120 [-/10.10.98.225/-/46ms GET /news] nodejs.TypeError: Cannot read property 'data' of undefined
+    at E:\jsonKK\study\node\node-web\base-egg\test\hello-world\app\service\news.js:27:36
+    at Array.map (<anonymous>)
+    at NewsService.list (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\app\service\news.js:27:21)
+    at processTicksAndRejections (internal/process/task_queues.js:85:5)
+    at async NewsController.list (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\app\controller\news.js:7:22)
+    at async E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+
+pid: 18120
+hostname: DESKTOP-F4C88D7
+
+2020-08-08 08:53:44,815 ERROR 18120 nodejs.RequestError: connect ECONNREFUSED 127.0.0.1:80, GET [object Object] -1 (connected: false, keepalive socket: false, agent status: {"createSocketCount":101,"createSocketErrorCount":0,"closeSocketCount":0,"errorSocketCount":1,"timeoutSocketCount":0,"requestCount":1,"freeSockets":{"10.10.98.225:3000:":1},"sockets":{"localhost:80:":100},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1056:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 80
+name: "RequestError"
+data: undefined
+path: "/"
+status: -1
+headers: {}
+res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":2075,"keepAliveSocket":false,"requestUrls":[null],"timing":null,"remoteAddress":"127.0.0.1","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 18120
+hostname: DESKTOP-F4C88D7
+
+2020-08-08 08:53:44,818 ERROR 18120 nodejs.RequestError: connect ECONNREFUSED 127.0.0.1:80, GET [object Object] -1 (connected: false, keepalive socket: false, agent status: {"createSocketCount":101,"createSocketErrorCount":0,"closeSocketCount":1,"errorSocketCount":2,"timeoutSocketCount":0,"requestCount":1,"freeSockets":{"10.10.98.225:3000:":1},"sockets":{"localhost:80:":99},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1056:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 80
+name: "RequestError"
+data: undefined
+path: "/"
+status: -1
+headers: {}
+res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":2076,"keepAliveSocket":false,"requestUrls":[null],"timing":null,"remoteAddress":"127.0.0.1","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 18120
+hostname: DESKTOP-F4C88D7
+
+2020-08-08 08:53:44,821 ERROR 18120 nodejs.RequestError: connect ECONNREFUSED 127.0.0.1:80, GET [object Object] -1 (connected: false, keepalive socket: false, agent status: {"createSocketCount":101,"createSocketErrorCount":0,"closeSocketCount":1,"errorSocketCount":3,"timeoutSocketCount":0,"requestCount":1,"freeSockets":{"10.10.98.225:3000:":1},"sockets":{"localhost:80:":99},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1056:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 80
+name: "RequestError"
+data: undefined
+path: "/"
+status: -1
+headers: {}
+res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":2075,"keepAliveSocket":false,"requestUrls":[null],"timing":null,"remoteAddress":"127.0.0.1","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 18120
+hostname: DESKTOP-F4C88D7
+
+2020-08-08 08:53:45,149 ERROR 18120 nodejs.RequestError: connect ECONNREFUSED 127.0.0.1:80, GET [object Object] -1 (connected: false, keepalive socket: false, agent status: {"createSocketCount":101,"createSocketErrorCount":0,"closeSocketCount":1,"errorSocketCount":4,"timeoutSocketCount":0,"requestCount":1,"freeSockets":{"10.10.98.225:3000:":1},"sockets":{"localhost:80:":99},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1056:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 80
+name: "RequestError"
+data: undefined
+path: "/"
+status: -1
+headers: {}
+res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":2405,"keepAliveSocket":false,"requestUrls":[null],"timing":null,"remoteAddress":"127.0.0.1","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 18120
+hostname: DESKTOP-F4C88D7
+
+2020-08-08 08:53:45,160 ERROR 18120 nodejs.RequestError: connect ECONNREFUSED 127.0.0.1:80, GET [object Object] -1 (connected: false, keepalive socket: false, agent status: {"createSocketCount":101,"createSocketErrorCount":0,"closeSocketCount":1,"errorSocketCount":5,"timeoutSocketCount":0,"requestCount":1,"freeSockets":{"10.10.98.225:3000:":1},"sockets":{"localhost:80:":99},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1056:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 80
+name: "RequestError"
+data: undefined
+path: "/"
+status: -1
+headers: {}
+res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":2419,"keepAliveSocket":false,"requestUrls":[null],"timing":null,"remoteAddress":"127.0.0.1","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 18120
+hostname: DESKTOP-F4C88D7
+
+2020-08-08 08:53:45,164 ERROR 18120 nodejs.RequestError: connect ECONNREFUSED 127.0.0.1:80, GET [object Object] -1 (connected: false, keepalive socket: false, agent status: {"createSocketCount":101,"createSocketErrorCount":0,"closeSocketCount":1,"errorSocketCount":6,"timeoutSocketCount":0,"requestCount":1,"freeSockets":{"10.10.98.225:3000:":1},"sockets":{"localhost:80:":99},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1056:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 80
+name: "RequestError"
+data: undefined
+path: "/"
+status: -1
+headers: {}
+res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":2429,"keepAliveSocket":false,"requestUrls":[null],"timing":null,"remoteAddress":"127.0.0.1","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 18120
+hostname: DESKTOP-F4C88D7
+
+2020-08-08 08:53:45,170 ERROR 18120 nodejs.RequestError: connect ECONNREFUSED 127.0.0.1:80, GET [object Object] -1 (connected: false, keepalive socket: false, agent status: {"createSocketCount":101,"createSocketErrorCount":0,"closeSocketCount":1,"errorSocketCount":7,"timeoutSocketCount":0,"requestCount":1,"freeSockets":{"10.10.98.225:3000:":1},"sockets":{"localhost:80:":99},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1056:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 80
+name: "RequestError"
+data: undefined
+path: "/"
+status: -1
+headers: {}
+res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":2427,"keepAliveSocket":false,"requestUrls":[null],"timing":null,"remoteAddress":"127.0.0.1","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 18120
+hostname: DESKTOP-F4C88D7
+
+2020-08-08 08:53:45,183 ERROR 18120 nodejs.RequestError: connect ECONNREFUSED 127.0.0.1:80, GET [object Object] -1 (connected: false, keepalive socket: false, agent status: {"createSocketCount":101,"createSocketErrorCount":0,"closeSocketCount":7,"errorSocketCount":8,"timeoutSocketCount":0,"requestCount":1,"freeSockets":{"10.10.98.225:3000:":1},"sockets":{"localhost:80:":93},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1056:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 80
+name: "RequestError"
+data: undefined
+path: "/"
+status: -1
+headers: {}
+res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":2439,"keepAliveSocket":false,"requestUrls":[null],"timing":null,"remoteAddress":"127.0.0.1","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 18120
+hostname: DESKTOP-F4C88D7
+
+2020-08-08 08:53:45,210 ERROR 18120 nodejs.RequestError: connect ECONNREFUSED 127.0.0.1:80, GET [object Object] -1 (connected: false, keepalive socket: false, agent status: {"createSocketCount":101,"createSocketErrorCount":0,"closeSocketCount":7,"errorSocketCount":9,"timeoutSocketCount":0,"requestCount":1,"freeSockets":{"10.10.98.225:3000:":1},"sockets":{"localhost:80:":93},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1056:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 80
+name: "RequestError"
+data: undefined
+path: "/"
+status: -1
+headers: {}
+res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":2464,"keepAliveSocket":false,"requestUrls":[null],"timing":null,"remoteAddress":"127.0.0.1","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 18120
+hostname: DESKTOP-F4C88D7
+
+2020-08-08 08:53:45,215 ERROR 18120 nodejs.RequestError: connect ECONNREFUSED 127.0.0.1:80, GET [object Object] -1 (connected: false, keepalive socket: false, agent status: {"createSocketCount":101,"createSocketErrorCount":0,"closeSocketCount":7,"errorSocketCount":10,"timeoutSocketCount":0,"requestCount":1,"freeSockets":{"10.10.98.225:3000:":1},"sockets":{"localhost:80:":93},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1056:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 80
+name: "RequestError"
+data: undefined
+path: "/"
+status: -1
+headers: {}
+res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":2468,"keepAliveSocket":false,"requestUrls":[null],"timing":null,"remoteAddress":"127.0.0.1","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 18120
+hostname: DESKTOP-F4C88D7
+
+2020-08-08 08:53:45,220 ERROR 18120 nodejs.RequestError: connect ECONNREFUSED 127.0.0.1:80, GET [object Object] -1 (connected: false, keepalive socket: false, agent status: {"createSocketCount":101,"createSocketErrorCount":0,"closeSocketCount":7,"errorSocketCount":11,"timeoutSocketCount":0,"requestCount":1,"freeSockets":{"10.10.98.225:3000:":1},"sockets":{"localhost:80:":93},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1056:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 80
+name: "RequestError"
+data: undefined
+path: "/"
+status: -1
+headers: {}
+res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":2475,"keepAliveSocket":false,"requestUrls":[null],"timing":null,"remoteAddress":"127.0.0.1","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 18120
+hostname: DESKTOP-F4C88D7
+
+2020-08-08 08:53:45,245 ERROR 18120 nodejs.RequestError: connect ECONNREFUSED 127.0.0.1:80, GET [object Object] -1 (connected: false, keepalive socket: false, agent status: {"createSocketCount":101,"createSocketErrorCount":0,"closeSocketCount":7,"errorSocketCount":12,"timeoutSocketCount":0,"requestCount":1,"freeSockets":{"10.10.98.225:3000:":1},"sockets":{"localhost:80:":93},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1056:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 80
+name: "RequestError"
+data: undefined
+path: "/"
+status: -1
+headers: {}
+res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":2498,"keepAliveSocket":false,"requestUrls":[null],"timing":null,"remoteAddress":"127.0.0.1","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 18120
+hostname: DESKTOP-F4C88D7
+
+2020-08-08 08:53:45,251 ERROR 18120 nodejs.RequestError: connect ECONNREFUSED 127.0.0.1:80, GET [object Object] -1 (connected: false, keepalive socket: false, agent status: {"createSocketCount":101,"createSocketErrorCount":0,"closeSocketCount":7,"errorSocketCount":13,"timeoutSocketCount":0,"requestCount":1,"freeSockets":{"10.10.98.225:3000:":1},"sockets":{"localhost:80:":93},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1056:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 80
+name: "RequestError"
+data: undefined
+path: "/"
+status: -1
+headers: {}
+res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":2506,"keepAliveSocket":false,"requestUrls":[null],"timing":null,"remoteAddress":"127.0.0.1","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 18120
+hostname: DESKTOP-F4C88D7
+
+2020-08-08 08:53:45,276 ERROR 18120 nodejs.RequestError: connect ECONNREFUSED 127.0.0.1:80, GET [object Object] -1 (connected: false, keepalive socket: false, agent status: {"createSocketCount":101,"createSocketErrorCount":0,"closeSocketCount":7,"errorSocketCount":14,"timeoutSocketCount":0,"requestCount":1,"freeSockets":{"10.10.98.225:3000:":1},"sockets":{"localhost:80:":93},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1056:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 80
+name: "RequestError"
+data: undefined
+path: "/"
+status: -1
+headers: {}
+res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":2530,"keepAliveSocket":false,"requestUrls":[null],"timing":null,"remoteAddress":"127.0.0.1","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 18120
+hostname: DESKTOP-F4C88D7
+
+2020-08-08 08:53:45,282 ERROR 18120 nodejs.RequestError: connect ECONNREFUSED 127.0.0.1:80, GET [object Object] -1 (connected: false, keepalive socket: false, agent status: {"createSocketCount":101,"createSocketErrorCount":0,"closeSocketCount":7,"errorSocketCount":15,"timeoutSocketCount":0,"requestCount":1,"freeSockets":{"10.10.98.225:3000:":1},"sockets":{"localhost:80:":93},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1056:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 80
+name: "RequestError"
+data: undefined
+path: "/"
+status: -1
+headers: {}
+res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":2532,"keepAliveSocket":false,"requestUrls":[null],"timing":null,"remoteAddress":"127.0.0.1","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 18120
+hostname: DESKTOP-F4C88D7
+
+2020-08-08 08:53:45,287 ERROR 18120 nodejs.RequestError: connect ECONNREFUSED 127.0.0.1:80, GET [object Object] -1 (connected: false, keepalive socket: false, agent status: {"createSocketCount":101,"createSocketErrorCount":0,"closeSocketCount":7,"errorSocketCount":16,"timeoutSocketCount":0,"requestCount":1,"freeSockets":{"10.10.98.225:3000:":1},"sockets":{"localhost:80:":93},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1056:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 80
+name: "RequestError"
+data: undefined
+path: "/"
+status: -1
+headers: {}
+res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":2537,"keepAliveSocket":false,"requestUrls":[null],"timing":null,"remoteAddress":"127.0.0.1","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 18120
+hostname: DESKTOP-F4C88D7
+
+2020-08-08 08:53:45,312 ERROR 18120 nodejs.RequestError: connect ECONNREFUSED 127.0.0.1:80, GET [object Object] -1 (connected: false, keepalive socket: false, agent status: {"createSocketCount":101,"createSocketErrorCount":0,"closeSocketCount":7,"errorSocketCount":17,"timeoutSocketCount":0,"requestCount":1,"freeSockets":{"10.10.98.225:3000:":1},"sockets":{"localhost:80:":93},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1056:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 80
+name: "RequestError"
+data: undefined
+path: "/"
+status: -1
+headers: {}
+res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":2562,"keepAliveSocket":false,"requestUrls":[null],"timing":null,"remoteAddress":"127.0.0.1","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 18120
+hostname: DESKTOP-F4C88D7
+
+2020-08-08 08:53:45,317 ERROR 18120 nodejs.RequestError: connect ECONNREFUSED 127.0.0.1:80, GET [object Object] -1 (connected: false, keepalive socket: false, agent status: {"createSocketCount":101,"createSocketErrorCount":0,"closeSocketCount":7,"errorSocketCount":18,"timeoutSocketCount":0,"requestCount":1,"freeSockets":{"10.10.98.225:3000:":1},"sockets":{"localhost:80:":93},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1056:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 80
+name: "RequestError"
+data: undefined
+path: "/"
+status: -1
+headers: {}
+res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":2569,"keepAliveSocket":false,"requestUrls":[null],"timing":null,"remoteAddress":"127.0.0.1","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 18120
+hostname: DESKTOP-F4C88D7
+
+2020-08-08 08:53:45,349 ERROR 18120 nodejs.RequestError: connect ECONNREFUSED 127.0.0.1:80, GET [object Object] -1 (connected: false, keepalive socket: false, agent status: {"createSocketCount":101,"createSocketErrorCount":0,"closeSocketCount":7,"errorSocketCount":19,"timeoutSocketCount":0,"requestCount":1,"freeSockets":{"10.10.98.225:3000:":1},"sockets":{"localhost:80:":93},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1056:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 80
+name: "RequestError"
+data: undefined
+path: "/"
+status: -1
+headers: {}
+res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":2600,"keepAliveSocket":false,"requestUrls":[null],"timing":null,"remoteAddress":"127.0.0.1","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 18120
+hostname: DESKTOP-F4C88D7
+
+2020-08-08 08:53:45,356 ERROR 18120 nodejs.RequestError: connect ECONNREFUSED 127.0.0.1:80, GET [object Object] -1 (connected: false, keepalive socket: false, agent status: {"createSocketCount":101,"createSocketErrorCount":0,"closeSocketCount":7,"errorSocketCount":20,"timeoutSocketCount":0,"requestCount":1,"freeSockets":{"10.10.98.225:3000:":1},"sockets":{"localhost:80:":93},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1056:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 80
+name: "RequestError"
+data: undefined
+path: "/"
+status: -1
+headers: {}
+res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":2606,"keepAliveSocket":false,"requestUrls":[null],"timing":null,"remoteAddress":"127.0.0.1","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 18120
+hostname: DESKTOP-F4C88D7
+
+2020-08-08 08:53:45,385 ERROR 18120 nodejs.RequestError: connect ECONNREFUSED 127.0.0.1:80, GET [object Object] -1 (connected: false, keepalive socket: false, agent status: {"createSocketCount":101,"createSocketErrorCount":0,"closeSocketCount":7,"errorSocketCount":21,"timeoutSocketCount":0,"requestCount":1,"freeSockets":{"10.10.98.225:3000:":1},"sockets":{"localhost:80:":93},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1056:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 80
+name: "RequestError"
+data: undefined
+path: "/"
+status: -1
+headers: {}
+res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":2638,"keepAliveSocket":false,"requestUrls":[null],"timing":null,"remoteAddress":"127.0.0.1","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 18120
+hostname: DESKTOP-F4C88D7
+
+2020-08-08 08:53:45,410 ERROR 18120 nodejs.RequestError: connect ECONNREFUSED 127.0.0.1:80, GET [object Object] -1 (connected: false, keepalive socket: false, agent status: {"createSocketCount":101,"createSocketErrorCount":0,"closeSocketCount":7,"errorSocketCount":22,"timeoutSocketCount":0,"requestCount":1,"freeSockets":{"10.10.98.225:3000:":1},"sockets":{"localhost:80:":93},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1056:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 80
+name: "RequestError"
+data: undefined
+path: "/"
+status: -1
+headers: {}
+res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":2657,"keepAliveSocket":false,"requestUrls":[null],"timing":null,"remoteAddress":"127.0.0.1","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 18120
+hostname: DESKTOP-F4C88D7
+
+2020-08-08 08:53:45,415 ERROR 18120 nodejs.RequestError: connect ECONNREFUSED 127.0.0.1:80, GET [object Object] -1 (connected: false, keepalive socket: false, agent status: {"createSocketCount":101,"createSocketErrorCount":0,"closeSocketCount":7,"errorSocketCount":23,"timeoutSocketCount":0,"requestCount":1,"freeSockets":{"10.10.98.225:3000:":1},"sockets":{"localhost:80:":93},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1056:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 80
+name: "RequestError"
+data: undefined
+path: "/"
+status: -1
+headers: {}
+res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":2672,"keepAliveSocket":false,"requestUrls":[null],"timing":null,"remoteAddress":"127.0.0.1","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 18120
+hostname: DESKTOP-F4C88D7
+
+2020-08-08 08:53:45,420 ERROR 18120 nodejs.RequestError: connect ECONNREFUSED 127.0.0.1:80, GET [object Object] -1 (connected: false, keepalive socket: false, agent status: {"createSocketCount":101,"createSocketErrorCount":0,"closeSocketCount":7,"errorSocketCount":24,"timeoutSocketCount":0,"requestCount":1,"freeSockets":{"10.10.98.225:3000:":1},"sockets":{"localhost:80:":93},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1056:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 80
+name: "RequestError"
+data: undefined
+path: "/"
+status: -1
+headers: {}
+res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":2675,"keepAliveSocket":false,"requestUrls":[null],"timing":null,"remoteAddress":"127.0.0.1","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 18120
+hostname: DESKTOP-F4C88D7
+
+2020-08-08 08:53:45,441 ERROR 18120 nodejs.RequestError: connect ECONNREFUSED 127.0.0.1:80, GET [object Object] -1 (connected: false, keepalive socket: false, agent status: {"createSocketCount":101,"createSocketErrorCount":0,"closeSocketCount":7,"errorSocketCount":25,"timeoutSocketCount":0,"requestCount":1,"freeSockets":{"10.10.98.225:3000:":1},"sockets":{"localhost:80:":93},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1056:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 80
+name: "RequestError"
+data: undefined
+path: "/"
+status: -1
+headers: {}
+res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":2692,"keepAliveSocket":false,"requestUrls":[null],"timing":null,"remoteAddress":"127.0.0.1","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 18120
+hostname: DESKTOP-F4C88D7
+
+2020-08-08 08:53:45,446 ERROR 18120 nodejs.RequestError: connect ECONNREFUSED 127.0.0.1:80, GET [object Object] -1 (connected: false, keepalive socket: false, agent status: {"createSocketCount":101,"createSocketErrorCount":0,"closeSocketCount":7,"errorSocketCount":26,"timeoutSocketCount":0,"requestCount":1,"freeSockets":{"10.10.98.225:3000:":1},"sockets":{"localhost:80:":93},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1056:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 80
+name: "RequestError"
+data: undefined
+path: "/"
+status: -1
+headers: {}
+res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":2696,"keepAliveSocket":false,"requestUrls":[null],"timing":null,"remoteAddress":"127.0.0.1","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 18120
+hostname: DESKTOP-F4C88D7
+
+2020-08-08 08:53:45,450 ERROR 18120 nodejs.RequestError: connect ECONNREFUSED 127.0.0.1:80, GET [object Object] -1 (connected: false, keepalive socket: false, agent status: {"createSocketCount":101,"createSocketErrorCount":0,"closeSocketCount":7,"errorSocketCount":27,"timeoutSocketCount":0,"requestCount":1,"freeSockets":{"10.10.98.225:3000:":1},"sockets":{"localhost:80:":93},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1056:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 80
+name: "RequestError"
+data: undefined
+path: "/"
+status: -1
+headers: {}
+res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":2710,"keepAliveSocket":false,"requestUrls":[null],"timing":null,"remoteAddress":"127.0.0.1","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 18120
+hostname: DESKTOP-F4C88D7
+
+2020-08-08 08:53:45,455 ERROR 18120 nodejs.RequestError: connect ECONNREFUSED 127.0.0.1:80, GET [object Object] -1 (connected: false, keepalive socket: false, agent status: {"createSocketCount":101,"createSocketErrorCount":0,"closeSocketCount":7,"errorSocketCount":28,"timeoutSocketCount":0,"requestCount":1,"freeSockets":{"10.10.98.225:3000:":1},"sockets":{"localhost:80:":93},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1056:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 80
+name: "RequestError"
+data: undefined
+path: "/"
+status: -1
+headers: {}
+res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":2708,"keepAliveSocket":false,"requestUrls":[null],"timing":null,"remoteAddress":"127.0.0.1","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 18120
+hostname: DESKTOP-F4C88D7
+
+2020-08-08 08:53:45,504 ERROR 18120 nodejs.RequestError: connect ECONNREFUSED 127.0.0.1:80, GET [object Object] -1 (connected: false, keepalive socket: false, agent status: {"createSocketCount":101,"createSocketErrorCount":0,"closeSocketCount":7,"errorSocketCount":29,"timeoutSocketCount":0,"requestCount":1,"freeSockets":{"10.10.98.225:3000:":1},"sockets":{"localhost:80:":93},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1056:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 80
+name: "RequestError"
+data: undefined
+path: "/"
+status: -1
+headers: {}
+res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":2756,"keepAliveSocket":false,"requestUrls":[null],"timing":null,"remoteAddress":"127.0.0.1","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 18120
+hostname: DESKTOP-F4C88D7
+
+2020-08-08 08:53:45,544 ERROR 18120 nodejs.RequestError: connect ECONNREFUSED 127.0.0.1:80, GET [object Object] -1 (connected: false, keepalive socket: false, agent status: {"createSocketCount":101,"createSocketErrorCount":0,"closeSocketCount":7,"errorSocketCount":30,"timeoutSocketCount":0,"requestCount":1,"freeSockets":{"10.10.98.225:3000:":1},"sockets":{"localhost:80:":93},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1056:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 80
+name: "RequestError"
+data: undefined
+path: "/"
+status: -1
+headers: {}
+res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":2792,"keepAliveSocket":false,"requestUrls":[null],"timing":null,"remoteAddress":"127.0.0.1","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 18120
+hostname: DESKTOP-F4C88D7
+
+2020-08-08 08:53:45,549 ERROR 18120 nodejs.RequestError: connect ECONNREFUSED 127.0.0.1:80, GET [object Object] -1 (connected: false, keepalive socket: false, agent status: {"createSocketCount":101,"createSocketErrorCount":0,"closeSocketCount":7,"errorSocketCount":31,"timeoutSocketCount":0,"requestCount":1,"freeSockets":{"10.10.98.225:3000:":1},"sockets":{"localhost:80:":93},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1056:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 80
+name: "RequestError"
+data: undefined
+path: "/"
+status: -1
+headers: {}
+res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":2795,"keepAliveSocket":false,"requestUrls":[null],"timing":null,"remoteAddress":"127.0.0.1","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 18120
+hostname: DESKTOP-F4C88D7
+
+2020-08-08 08:53:45,555 ERROR 18120 nodejs.RequestError: connect ECONNREFUSED 127.0.0.1:80, GET [object Object] -1 (connected: false, keepalive socket: false, agent status: {"createSocketCount":101,"createSocketErrorCount":0,"closeSocketCount":7,"errorSocketCount":32,"timeoutSocketCount":0,"requestCount":1,"freeSockets":{"10.10.98.225:3000:":1},"sockets":{"localhost:80:":93},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1056:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 80
+name: "RequestError"
+data: undefined
+path: "/"
+status: -1
+headers: {}
+res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":2801,"keepAliveSocket":false,"requestUrls":[null],"timing":null,"remoteAddress":"127.0.0.1","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 18120
+hostname: DESKTOP-F4C88D7
+
+2020-08-08 08:53:45,610 ERROR 18120 nodejs.RequestError: connect ECONNREFUSED 127.0.0.1:80, GET [object Object] -1 (connected: false, keepalive socket: false, agent status: {"createSocketCount":101,"createSocketErrorCount":0,"closeSocketCount":7,"errorSocketCount":33,"timeoutSocketCount":0,"requestCount":1,"freeSockets":{"10.10.98.225:3000:":1},"sockets":{"localhost:80:":93},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1056:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 80
+name: "RequestError"
+data: undefined
+path: "/"
+status: -1
+headers: {}
+res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":2857,"keepAliveSocket":false,"requestUrls":[null],"timing":null,"remoteAddress":"127.0.0.1","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 18120
+hostname: DESKTOP-F4C88D7
+
+2020-08-08 08:53:45,617 ERROR 18120 nodejs.RequestError: connect ECONNREFUSED 127.0.0.1:80, GET [object Object] -1 (connected: false, keepalive socket: false, agent status: {"createSocketCount":101,"createSocketErrorCount":0,"closeSocketCount":7,"errorSocketCount":34,"timeoutSocketCount":0,"requestCount":1,"freeSockets":{"10.10.98.225:3000:":1},"sockets":{"localhost:80:":93},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1056:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 80
+name: "RequestError"
+data: undefined
+path: "/"
+status: -1
+headers: {}
+res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":2859,"keepAliveSocket":false,"requestUrls":[null],"timing":null,"remoteAddress":"127.0.0.1","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 18120
+hostname: DESKTOP-F4C88D7
+
+2020-08-08 08:53:45,622 ERROR 18120 nodejs.RequestError: connect ECONNREFUSED 127.0.0.1:80, GET [object Object] -1 (connected: false, keepalive socket: false, agent status: {"createSocketCount":101,"createSocketErrorCount":0,"closeSocketCount":7,"errorSocketCount":35,"timeoutSocketCount":0,"requestCount":1,"freeSockets":{"10.10.98.225:3000:":1},"sockets":{"localhost:80:":93},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1056:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 80
+name: "RequestError"
+data: undefined
+path: "/"
+status: -1
+headers: {}
+res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":2868,"keepAliveSocket":false,"requestUrls":[null],"timing":null,"remoteAddress":"127.0.0.1","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 18120
+hostname: DESKTOP-F4C88D7
+
+2020-08-08 08:53:45,645 ERROR 18120 nodejs.RequestError: connect ECONNREFUSED 127.0.0.1:80, GET [object Object] -1 (connected: false, keepalive socket: false, agent status: {"createSocketCount":101,"createSocketErrorCount":0,"closeSocketCount":7,"errorSocketCount":36,"timeoutSocketCount":0,"requestCount":1,"freeSockets":{"10.10.98.225:3000:":1},"sockets":{"localhost:80:":93},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1056:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 80
+name: "RequestError"
+data: undefined
+path: "/"
+status: -1
+headers: {}
+res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":2889,"keepAliveSocket":false,"requestUrls":[null],"timing":null,"remoteAddress":"127.0.0.1","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 18120
+hostname: DESKTOP-F4C88D7
+
+2020-08-08 08:53:45,651 ERROR 18120 nodejs.RequestError: connect ECONNREFUSED 127.0.0.1:80, GET [object Object] -1 (connected: false, keepalive socket: false, agent status: {"createSocketCount":101,"createSocketErrorCount":0,"closeSocketCount":7,"errorSocketCount":37,"timeoutSocketCount":0,"requestCount":1,"freeSockets":{"10.10.98.225:3000:":1},"sockets":{"localhost:80:":93},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1056:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 80
+name: "RequestError"
+data: undefined
+path: "/"
+status: -1
+headers: {}
+res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":2896,"keepAliveSocket":false,"requestUrls":[null],"timing":null,"remoteAddress":"127.0.0.1","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 18120
+hostname: DESKTOP-F4C88D7
+
+2020-08-08 08:53:45,672 ERROR 18120 nodejs.RequestError: connect ECONNREFUSED 127.0.0.1:80, GET [object Object] -1 (connected: false, keepalive socket: false, agent status: {"createSocketCount":101,"createSocketErrorCount":0,"closeSocketCount":7,"errorSocketCount":38,"timeoutSocketCount":0,"requestCount":1,"freeSockets":{"10.10.98.225:3000:":1},"sockets":{"localhost:80:":93},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1056:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 80
+name: "RequestError"
+data: undefined
+path: "/"
+status: -1
+headers: {}
+res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":2920,"keepAliveSocket":false,"requestUrls":[null],"timing":null,"remoteAddress":"127.0.0.1","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 18120
+hostname: DESKTOP-F4C88D7
+
+2020-08-08 08:53:45,737 ERROR 18120 nodejs.RequestError: connect ECONNREFUSED 127.0.0.1:80, GET [object Object] -1 (connected: false, keepalive socket: false, agent status: {"createSocketCount":101,"createSocketErrorCount":0,"closeSocketCount":7,"errorSocketCount":39,"timeoutSocketCount":0,"requestCount":1,"freeSockets":{"10.10.98.225:3000:":1},"sockets":{"localhost:80:":93},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1056:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 80
+name: "RequestError"
+data: undefined
+path: "/"
+status: -1
+headers: {}
+res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":2979,"keepAliveSocket":false,"requestUrls":[null],"timing":null,"remoteAddress":"127.0.0.1","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 18120
+hostname: DESKTOP-F4C88D7
+
+2020-08-08 08:53:45,777 ERROR 18120 nodejs.RequestError: connect ECONNREFUSED 127.0.0.1:80, GET [object Object] -1 (connected: false, keepalive socket: false, agent status: {"createSocketCount":101,"createSocketErrorCount":0,"closeSocketCount":7,"errorSocketCount":40,"timeoutSocketCount":0,"requestCount":1,"freeSockets":{"10.10.98.225:3000:":1},"sockets":{"localhost:80:":93},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1056:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 80
+name: "RequestError"
+data: undefined
+path: "/"
+status: -1
+headers: {}
+res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":3017,"keepAliveSocket":false,"requestUrls":[null],"timing":null,"remoteAddress":"127.0.0.1","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 18120
+hostname: DESKTOP-F4C88D7
+
+2020-08-08 08:53:45,781 ERROR 18120 nodejs.RequestError: connect ECONNREFUSED 127.0.0.1:80, GET [object Object] -1 (connected: false, keepalive socket: false, agent status: {"createSocketCount":101,"createSocketErrorCount":0,"closeSocketCount":7,"errorSocketCount":41,"timeoutSocketCount":0,"requestCount":1,"freeSockets":{"10.10.98.225:3000:":1},"sockets":{"localhost:80:":93},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1056:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 80
+name: "RequestError"
+data: undefined
+path: "/"
+status: -1
+headers: {}
+res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":3022,"keepAliveSocket":false,"requestUrls":[null],"timing":null,"remoteAddress":"127.0.0.1","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 18120
+hostname: DESKTOP-F4C88D7
+
+2020-08-08 08:53:45,786 ERROR 18120 nodejs.RequestError: connect ECONNREFUSED 127.0.0.1:80, GET [object Object] -1 (connected: false, keepalive socket: false, agent status: {"createSocketCount":101,"createSocketErrorCount":0,"closeSocketCount":7,"errorSocketCount":42,"timeoutSocketCount":0,"requestCount":1,"freeSockets":{"10.10.98.225:3000:":1},"sockets":{"localhost:80:":93},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1056:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 80
+name: "RequestError"
+data: undefined
+path: "/"
+status: -1
+headers: {}
+res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":3030,"keepAliveSocket":false,"requestUrls":[null],"timing":null,"remoteAddress":"127.0.0.1","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 18120
+hostname: DESKTOP-F4C88D7
+
+2020-08-08 08:53:45,828 ERROR 18120 nodejs.RequestError: connect ECONNREFUSED 127.0.0.1:80, GET [object Object] -1 (connected: false, keepalive socket: false, agent status: {"createSocketCount":101,"createSocketErrorCount":0,"closeSocketCount":7,"errorSocketCount":43,"timeoutSocketCount":0,"requestCount":1,"freeSockets":{"10.10.98.225:3000:":1},"sockets":{"localhost:80:":93},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1056:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 80
+name: "RequestError"
+data: undefined
+path: "/"
+status: -1
+headers: {}
+res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":3069,"keepAliveSocket":false,"requestUrls":[null],"timing":null,"remoteAddress":"127.0.0.1","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 18120
+hostname: DESKTOP-F4C88D7
+
+2020-08-08 08:53:45,832 ERROR 18120 nodejs.RequestError: connect ECONNREFUSED 127.0.0.1:80, GET [object Object] -1 (connected: false, keepalive socket: false, agent status: {"createSocketCount":101,"createSocketErrorCount":0,"closeSocketCount":7,"errorSocketCount":44,"timeoutSocketCount":0,"requestCount":1,"freeSockets":{"10.10.98.225:3000:":1},"sockets":{"localhost:80:":93},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1056:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 80
+name: "RequestError"
+data: undefined
+path: "/"
+status: -1
+headers: {}
+res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":3072,"keepAliveSocket":false,"requestUrls":[null],"timing":null,"remoteAddress":"127.0.0.1","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 18120
+hostname: DESKTOP-F4C88D7
+
+2020-08-08 08:53:45,837 ERROR 18120 nodejs.RequestError: connect ECONNREFUSED 127.0.0.1:80, GET [object Object] -1 (connected: false, keepalive socket: false, agent status: {"createSocketCount":101,"createSocketErrorCount":0,"closeSocketCount":7,"errorSocketCount":45,"timeoutSocketCount":0,"requestCount":1,"freeSockets":{"10.10.98.225:3000:":1},"sockets":{"localhost:80:":93},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1056:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 80
+name: "RequestError"
+data: undefined
+path: "/"
+status: -1
+headers: {}
+res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":3075,"keepAliveSocket":false,"requestUrls":[null],"timing":null,"remoteAddress":"127.0.0.1","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 18120
+hostname: DESKTOP-F4C88D7
+
+2020-08-08 08:53:45,857 ERROR 18120 nodejs.RequestError: connect ECONNREFUSED 127.0.0.1:80, GET [object Object] -1 (connected: false, keepalive socket: false, agent status: {"createSocketCount":101,"createSocketErrorCount":0,"closeSocketCount":7,"errorSocketCount":46,"timeoutSocketCount":0,"requestCount":1,"freeSockets":{"10.10.98.225:3000:":1},"sockets":{"localhost:80:":93},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1056:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 80
+name: "RequestError"
+data: undefined
+path: "/"
+status: -1
+headers: {}
+res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":3097,"keepAliveSocket":false,"requestUrls":[null],"timing":null,"remoteAddress":"127.0.0.1","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 18120
+hostname: DESKTOP-F4C88D7
+
+2020-08-08 08:53:45,898 ERROR 18120 nodejs.RequestError: connect ECONNREFUSED 127.0.0.1:80, GET [object Object] -1 (connected: false, keepalive socket: false, agent status: {"createSocketCount":101,"createSocketErrorCount":0,"closeSocketCount":7,"errorSocketCount":47,"timeoutSocketCount":0,"requestCount":1,"freeSockets":{"10.10.98.225:3000:":1},"sockets":{"localhost:80:":93},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1056:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 80
+name: "RequestError"
+data: undefined
+path: "/"
+status: -1
+headers: {}
+res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":3137,"keepAliveSocket":false,"requestUrls":[null],"timing":null,"remoteAddress":"127.0.0.1","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 18120
+hostname: DESKTOP-F4C88D7
+
+2020-08-08 08:53:45,947 ERROR 18120 nodejs.RequestError: connect ECONNREFUSED 127.0.0.1:80, GET [object Object] -1 (connected: false, keepalive socket: false, agent status: {"createSocketCount":101,"createSocketErrorCount":0,"closeSocketCount":7,"errorSocketCount":48,"timeoutSocketCount":0,"requestCount":1,"freeSockets":{"10.10.98.225:3000:":1},"sockets":{"localhost:80:":93},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1056:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 80
+name: "RequestError"
+data: undefined
+path: "/"
+status: -1
+headers: {}
+res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":3184,"keepAliveSocket":false,"requestUrls":[null],"timing":null,"remoteAddress":"127.0.0.1","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 18120
+hostname: DESKTOP-F4C88D7
+
+2020-08-08 08:53:45,953 ERROR 18120 nodejs.RequestError: connect ECONNREFUSED 127.0.0.1:80, GET [object Object] -1 (connected: false, keepalive socket: false, agent status: {"createSocketCount":101,"createSocketErrorCount":0,"closeSocketCount":7,"errorSocketCount":49,"timeoutSocketCount":0,"requestCount":1,"freeSockets":{"10.10.98.225:3000:":1},"sockets":{"localhost:80:":93},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1056:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 80
+name: "RequestError"
+data: undefined
+path: "/"
+status: -1
+headers: {}
+res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":3189,"keepAliveSocket":false,"requestUrls":[null],"timing":null,"remoteAddress":"127.0.0.1","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 18120
+hostname: DESKTOP-F4C88D7
+
+2020-08-08 08:53:45,979 ERROR 18120 nodejs.RequestError: connect ECONNREFUSED 127.0.0.1:80, GET [object Object] -1 (connected: false, keepalive socket: false, agent status: {"createSocketCount":101,"createSocketErrorCount":0,"closeSocketCount":7,"errorSocketCount":50,"timeoutSocketCount":0,"requestCount":1,"freeSockets":{"10.10.98.225:3000:":1},"sockets":{"localhost:80:":93},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1056:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 80
+name: "RequestError"
+data: undefined
+path: "/"
+status: -1
+headers: {}
+res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":3215,"keepAliveSocket":false,"requestUrls":[null],"timing":null,"remoteAddress":"127.0.0.1","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 18120
+hostname: DESKTOP-F4C88D7
+
+2020-08-08 08:53:45,984 ERROR 18120 nodejs.RequestError: connect ECONNREFUSED 127.0.0.1:80, GET [object Object] -1 (connected: false, keepalive socket: false, agent status: {"createSocketCount":101,"createSocketErrorCount":0,"closeSocketCount":7,"errorSocketCount":51,"timeoutSocketCount":0,"requestCount":1,"freeSockets":{"10.10.98.225:3000:":1},"sockets":{"localhost:80:":93},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1056:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 80
+name: "RequestError"
+data: undefined
+path: "/"
+status: -1
+headers: {}
+res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":3222,"keepAliveSocket":false,"requestUrls":[null],"timing":null,"remoteAddress":"127.0.0.1","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 18120
+hostname: DESKTOP-F4C88D7
+
+2020-08-08 08:53:46,023 ERROR 18120 nodejs.RequestError: connect ECONNREFUSED 127.0.0.1:80, GET [object Object] -1 (connected: false, keepalive socket: false, agent status: {"createSocketCount":101,"createSocketErrorCount":0,"closeSocketCount":7,"errorSocketCount":52,"timeoutSocketCount":0,"requestCount":1,"freeSockets":{"10.10.98.225:3000:":1},"sockets":{"localhost:80:":93},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1056:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 80
+name: "RequestError"
+data: undefined
+path: "/"
+status: -1
+headers: {}
+res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":3256,"keepAliveSocket":false,"requestUrls":[null],"timing":null,"remoteAddress":"127.0.0.1","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 18120
+hostname: DESKTOP-F4C88D7
+
+2020-08-08 08:53:46,046 ERROR 18120 nodejs.RequestError: connect ECONNREFUSED 127.0.0.1:80, GET [object Object] -1 (connected: false, keepalive socket: false, agent status: {"createSocketCount":101,"createSocketErrorCount":0,"closeSocketCount":7,"errorSocketCount":53,"timeoutSocketCount":0,"requestCount":1,"freeSockets":{"10.10.98.225:3000:":1},"sockets":{"localhost:80:":93},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1056:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 80
+name: "RequestError"
+data: undefined
+path: "/"
+status: -1
+headers: {}
+res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":3284,"keepAliveSocket":false,"requestUrls":[null],"timing":null,"remoteAddress":"127.0.0.1","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 18120
+hostname: DESKTOP-F4C88D7
+
+2020-08-08 08:53:46,051 ERROR 18120 nodejs.RequestError: connect ECONNREFUSED 127.0.0.1:80, GET [object Object] -1 (connected: false, keepalive socket: false, agent status: {"createSocketCount":101,"createSocketErrorCount":0,"closeSocketCount":7,"errorSocketCount":54,"timeoutSocketCount":0,"requestCount":1,"freeSockets":{"10.10.98.225:3000:":1},"sockets":{"localhost:80:":93},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1056:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 80
+name: "RequestError"
+data: undefined
+path: "/"
+status: -1
+headers: {}
+res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":3286,"keepAliveSocket":false,"requestUrls":[null],"timing":null,"remoteAddress":"127.0.0.1","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 18120
+hostname: DESKTOP-F4C88D7
+
+2020-08-08 08:53:46,077 ERROR 18120 nodejs.RequestError: connect ECONNREFUSED 127.0.0.1:80, GET [object Object] -1 (connected: false, keepalive socket: false, agent status: {"createSocketCount":101,"createSocketErrorCount":0,"closeSocketCount":7,"errorSocketCount":55,"timeoutSocketCount":0,"requestCount":1,"freeSockets":{"10.10.98.225:3000:":1},"sockets":{"localhost:80:":93},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1056:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 80
+name: "RequestError"
+data: undefined
+path: "/"
+status: -1
+headers: {}
+res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":3311,"keepAliveSocket":false,"requestUrls":[null],"timing":null,"remoteAddress":"127.0.0.1","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 18120
+hostname: DESKTOP-F4C88D7
+
+2020-08-08 08:53:46,083 ERROR 18120 nodejs.RequestError: connect ECONNREFUSED 127.0.0.1:80, GET [object Object] -1 (connected: false, keepalive socket: false, agent status: {"createSocketCount":101,"createSocketErrorCount":0,"closeSocketCount":7,"errorSocketCount":56,"timeoutSocketCount":0,"requestCount":1,"freeSockets":{"10.10.98.225:3000:":1},"sockets":{"localhost:80:":93},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1056:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 80
+name: "RequestError"
+data: undefined
+path: "/"
+status: -1
+headers: {}
+res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":3318,"keepAliveSocket":false,"requestUrls":[null],"timing":null,"remoteAddress":"127.0.0.1","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 18120
+hostname: DESKTOP-F4C88D7
+
+2020-08-08 08:53:46,107 ERROR 18120 nodejs.RequestError: connect ECONNREFUSED 127.0.0.1:80, GET [object Object] -1 (connected: false, keepalive socket: false, agent status: {"createSocketCount":101,"createSocketErrorCount":0,"closeSocketCount":7,"errorSocketCount":57,"timeoutSocketCount":0,"requestCount":1,"freeSockets":{"10.10.98.225:3000:":1},"sockets":{"localhost:80:":93},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1056:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 80
+name: "RequestError"
+data: undefined
+path: "/"
+status: -1
+headers: {}
+res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":3338,"keepAliveSocket":false,"requestUrls":[null],"timing":null,"remoteAddress":"127.0.0.1","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 18120
+hostname: DESKTOP-F4C88D7
+
+2020-08-08 08:53:46,130 ERROR 18120 nodejs.RequestError: connect ECONNREFUSED 127.0.0.1:80, GET [object Object] -1 (connected: false, keepalive socket: false, agent status: {"createSocketCount":101,"createSocketErrorCount":0,"closeSocketCount":7,"errorSocketCount":58,"timeoutSocketCount":0,"requestCount":1,"freeSockets":{"10.10.98.225:3000:":1},"sockets":{"localhost:80:":93},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1056:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 80
+name: "RequestError"
+data: undefined
+path: "/"
+status: -1
+headers: {}
+res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":3362,"keepAliveSocket":false,"requestUrls":[null],"timing":null,"remoteAddress":"127.0.0.1","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 18120
+hostname: DESKTOP-F4C88D7
+
+2020-08-08 08:53:46,135 ERROR 18120 nodejs.RequestError: connect ECONNREFUSED 127.0.0.1:80, GET [object Object] -1 (connected: false, keepalive socket: false, agent status: {"createSocketCount":101,"createSocketErrorCount":0,"closeSocketCount":7,"errorSocketCount":59,"timeoutSocketCount":0,"requestCount":1,"freeSockets":{"10.10.98.225:3000:":1},"sockets":{"localhost:80:":93},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1056:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 80
+name: "RequestError"
+data: undefined
+path: "/"
+status: -1
+headers: {}
+res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":3368,"keepAliveSocket":false,"requestUrls":[null],"timing":null,"remoteAddress":"127.0.0.1","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 18120
+hostname: DESKTOP-F4C88D7
+
+2020-08-08 08:53:46,153 ERROR 18120 nodejs.RequestError: connect ECONNREFUSED 127.0.0.1:80, GET [object Object] -1 (connected: false, keepalive socket: false, agent status: {"createSocketCount":101,"createSocketErrorCount":0,"closeSocketCount":7,"errorSocketCount":60,"timeoutSocketCount":0,"requestCount":1,"freeSockets":{"10.10.98.225:3000:":1},"sockets":{"localhost:80:":93},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1056:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 80
+name: "RequestError"
+data: undefined
+path: "/"
+status: -1
+headers: {}
+res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":3386,"keepAliveSocket":false,"requestUrls":[null],"timing":null,"remoteAddress":"127.0.0.1","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 18120
+hostname: DESKTOP-F4C88D7
+
+2020-08-08 08:53:46,176 ERROR 18120 nodejs.RequestError: connect ECONNREFUSED 127.0.0.1:80, GET [object Object] -1 (connected: false, keepalive socket: false, agent status: {"createSocketCount":101,"createSocketErrorCount":0,"closeSocketCount":7,"errorSocketCount":61,"timeoutSocketCount":0,"requestCount":1,"freeSockets":{"10.10.98.225:3000:":1},"sockets":{"localhost:80:":93},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1056:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 80
+name: "RequestError"
+data: undefined
+path: "/"
+status: -1
+headers: {}
+res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":3394,"keepAliveSocket":false,"requestUrls":[null],"timing":null,"remoteAddress":"127.0.0.1","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 18120
+hostname: DESKTOP-F4C88D7
+
+2020-08-08 08:53:46,181 ERROR 18120 nodejs.RequestError: connect ECONNREFUSED 127.0.0.1:80, GET [object Object] -1 (connected: false, keepalive socket: false, agent status: {"createSocketCount":101,"createSocketErrorCount":0,"closeSocketCount":7,"errorSocketCount":62,"timeoutSocketCount":0,"requestCount":1,"freeSockets":{"10.10.98.225:3000:":1},"sockets":{"localhost:80:":93},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1056:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 80
+name: "RequestError"
+data: undefined
+path: "/"
+status: -1
+headers: {}
+res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":3397,"keepAliveSocket":false,"requestUrls":[null],"timing":null,"remoteAddress":"127.0.0.1","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 18120
+hostname: DESKTOP-F4C88D7
+
+2020-08-08 08:53:46,188 ERROR 18120 nodejs.RequestError: connect ECONNREFUSED 127.0.0.1:80, GET [object Object] -1 (connected: false, keepalive socket: false, agent status: {"createSocketCount":101,"createSocketErrorCount":0,"closeSocketCount":7,"errorSocketCount":63,"timeoutSocketCount":0,"requestCount":1,"freeSockets":{"10.10.98.225:3000:":1},"sockets":{"localhost:80:":93},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1056:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 80
+name: "RequestError"
+data: undefined
+path: "/"
+status: -1
+headers: {}
+res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":3416,"keepAliveSocket":false,"requestUrls":[null],"timing":null,"remoteAddress":"127.0.0.1","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 18120
+hostname: DESKTOP-F4C88D7
+
+2020-08-08 08:53:46,218 ERROR 18120 nodejs.RequestError: connect ECONNREFUSED 127.0.0.1:80, GET [object Object] -1 (connected: false, keepalive socket: false, agent status: {"createSocketCount":101,"createSocketErrorCount":0,"closeSocketCount":7,"errorSocketCount":64,"timeoutSocketCount":0,"requestCount":1,"freeSockets":{"10.10.98.225:3000:":1},"sockets":{"localhost:80:":93},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1056:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 80
+name: "RequestError"
+data: undefined
+path: "/"
+status: -1
+headers: {}
+res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":3440,"keepAliveSocket":false,"requestUrls":[null],"timing":null,"remoteAddress":"127.0.0.1","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 18120
+hostname: DESKTOP-F4C88D7
+
+2020-08-08 08:53:46,242 ERROR 18120 nodejs.RequestError: connect ECONNREFUSED 127.0.0.1:80, GET [object Object] -1 (connected: false, keepalive socket: false, agent status: {"createSocketCount":101,"createSocketErrorCount":0,"closeSocketCount":7,"errorSocketCount":65,"timeoutSocketCount":0,"requestCount":1,"freeSockets":{"10.10.98.225:3000:":1},"sockets":{"localhost:80:":93},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1056:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 80
+name: "RequestError"
+data: undefined
+path: "/"
+status: -1
+headers: {}
+res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":3455,"keepAliveSocket":false,"requestUrls":[null],"timing":null,"remoteAddress":"127.0.0.1","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 18120
+hostname: DESKTOP-F4C88D7
+
+2020-08-08 08:53:46,248 ERROR 18120 nodejs.RequestError: connect ECONNREFUSED 127.0.0.1:80, GET [object Object] -1 (connected: false, keepalive socket: false, agent status: {"createSocketCount":101,"createSocketErrorCount":0,"closeSocketCount":7,"errorSocketCount":66,"timeoutSocketCount":0,"requestCount":1,"freeSockets":{"10.10.98.225:3000:":1},"sockets":{"localhost:80:":93},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1056:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 80
+name: "RequestError"
+data: undefined
+path: "/"
+status: -1
+headers: {}
+res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":3479,"keepAliveSocket":false,"requestUrls":[null],"timing":null,"remoteAddress":"127.0.0.1","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 18120
+hostname: DESKTOP-F4C88D7
+
+2020-08-08 08:53:46,253 ERROR 18120 nodejs.RequestError: connect ECONNREFUSED 127.0.0.1:80, GET [object Object] -1 (connected: false, keepalive socket: false, agent status: {"createSocketCount":101,"createSocketErrorCount":0,"closeSocketCount":7,"errorSocketCount":67,"timeoutSocketCount":0,"requestCount":1,"freeSockets":{"10.10.98.225:3000:":1},"sockets":{"localhost:80:":93},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1056:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 80
+name: "RequestError"
+data: undefined
+path: "/"
+status: -1
+headers: {}
+res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":3470,"keepAliveSocket":false,"requestUrls":[null],"timing":null,"remoteAddress":"127.0.0.1","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 18120
+hostname: DESKTOP-F4C88D7
+
+2020-08-08 08:53:46,311 ERROR 18120 nodejs.RequestError: connect ECONNREFUSED 127.0.0.1:80, GET [object Object] -1 (connected: false, keepalive socket: false, agent status: {"createSocketCount":101,"createSocketErrorCount":0,"closeSocketCount":7,"errorSocketCount":68,"timeoutSocketCount":0,"requestCount":1,"freeSockets":{"10.10.98.225:3000:":1},"sockets":{"localhost:80:":93},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1056:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 80
+name: "RequestError"
+data: undefined
+path: "/"
+status: -1
+headers: {}
+res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":3525,"keepAliveSocket":false,"requestUrls":[null],"timing":null,"remoteAddress":"127.0.0.1","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 18120
+hostname: DESKTOP-F4C88D7
+
+2020-08-08 08:53:46,316 ERROR 18120 nodejs.RequestError: connect ECONNREFUSED 127.0.0.1:80, GET [object Object] -1 (connected: false, keepalive socket: false, agent status: {"createSocketCount":101,"createSocketErrorCount":0,"closeSocketCount":7,"errorSocketCount":69,"timeoutSocketCount":0,"requestCount":1,"freeSockets":{"10.10.98.225:3000:":1},"sockets":{"localhost:80:":93},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1056:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 80
+name: "RequestError"
+data: undefined
+path: "/"
+status: -1
+headers: {}
+res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":3532,"keepAliveSocket":false,"requestUrls":[null],"timing":null,"remoteAddress":"127.0.0.1","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 18120
+hostname: DESKTOP-F4C88D7
+
+2020-08-08 08:53:46,322 ERROR 18120 nodejs.RequestError: connect ECONNREFUSED 127.0.0.1:80, GET [object Object] -1 (connected: false, keepalive socket: false, agent status: {"createSocketCount":101,"createSocketErrorCount":0,"closeSocketCount":7,"errorSocketCount":70,"timeoutSocketCount":0,"requestCount":1,"freeSockets":{"10.10.98.225:3000:":1},"sockets":{"localhost:80:":93},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1056:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 80
+name: "RequestError"
+data: undefined
+path: "/"
+status: -1
+headers: {}
+res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":3541,"keepAliveSocket":false,"requestUrls":[null],"timing":null,"remoteAddress":"127.0.0.1","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 18120
+hostname: DESKTOP-F4C88D7
+
+2020-08-08 08:53:46,403 ERROR 18120 nodejs.RequestError: connect ECONNREFUSED 127.0.0.1:80, GET [object Object] -1 (connected: false, keepalive socket: false, agent status: {"createSocketCount":101,"createSocketErrorCount":0,"closeSocketCount":7,"errorSocketCount":71,"timeoutSocketCount":0,"requestCount":1,"freeSockets":{"10.10.98.225:3000:":1},"sockets":{"localhost:80:":93},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1056:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 80
+name: "RequestError"
+data: undefined
+path: "/"
+status: -1
+headers: {}
+res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":3618,"keepAliveSocket":false,"requestUrls":[null],"timing":null,"remoteAddress":"127.0.0.1","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 18120
+hostname: DESKTOP-F4C88D7
+
+2020-08-08 08:53:46,439 ERROR 18120 nodejs.RequestError: connect ECONNREFUSED 127.0.0.1:80, GET [object Object] -1 (connected: false, keepalive socket: false, agent status: {"createSocketCount":101,"createSocketErrorCount":0,"closeSocketCount":7,"errorSocketCount":72,"timeoutSocketCount":0,"requestCount":1,"freeSockets":{"10.10.98.225:3000:":1},"sockets":{"localhost:80:":93},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1056:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 80
+name: "RequestError"
+data: undefined
+path: "/"
+status: -1
+headers: {}
+res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":3664,"keepAliveSocket":false,"requestUrls":[null],"timing":null,"remoteAddress":"127.0.0.1","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 18120
+hostname: DESKTOP-F4C88D7
+
+2020-08-08 08:53:46,477 ERROR 18120 nodejs.RequestError: connect ECONNREFUSED 127.0.0.1:80, GET [object Object] -1 (connected: false, keepalive socket: false, agent status: {"createSocketCount":101,"createSocketErrorCount":0,"closeSocketCount":7,"errorSocketCount":73,"timeoutSocketCount":0,"requestCount":1,"freeSockets":{"10.10.98.225:3000:":1},"sockets":{"localhost:80:":93},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1056:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 80
+name: "RequestError"
+data: undefined
+path: "/"
+status: -1
+headers: {}
+res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":3696,"keepAliveSocket":false,"requestUrls":[null],"timing":null,"remoteAddress":"127.0.0.1","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 18120
+hostname: DESKTOP-F4C88D7
+
+2020-08-08 08:53:46,482 ERROR 18120 nodejs.RequestError: connect ECONNREFUSED 127.0.0.1:80, GET [object Object] -1 (connected: false, keepalive socket: false, agent status: {"createSocketCount":101,"createSocketErrorCount":0,"closeSocketCount":7,"errorSocketCount":74,"timeoutSocketCount":0,"requestCount":1,"freeSockets":{"10.10.98.225:3000:":1},"sockets":{"localhost:80:":93},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1056:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 80
+name: "RequestError"
+data: undefined
+path: "/"
+status: -1
+headers: {}
+res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":3688,"keepAliveSocket":false,"requestUrls":[null],"timing":null,"remoteAddress":"127.0.0.1","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 18120
+hostname: DESKTOP-F4C88D7
+
+2020-08-08 08:53:46,487 ERROR 18120 nodejs.RequestError: connect ECONNREFUSED 127.0.0.1:80, GET [object Object] -1 (connected: false, keepalive socket: false, agent status: {"createSocketCount":101,"createSocketErrorCount":0,"closeSocketCount":7,"errorSocketCount":75,"timeoutSocketCount":0,"requestCount":1,"freeSockets":{"10.10.98.225:3000:":1},"sockets":{"localhost:80:":93},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1056:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 80
+name: "RequestError"
+data: undefined
+path: "/"
+status: -1
+headers: {}
+res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":3692,"keepAliveSocket":false,"requestUrls":[null],"timing":null,"remoteAddress":"127.0.0.1","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 18120
+hostname: DESKTOP-F4C88D7
+
+2020-08-08 08:53:46,531 ERROR 18120 nodejs.RequestError: connect ECONNREFUSED 127.0.0.1:80, GET [object Object] -1 (connected: false, keepalive socket: false, agent status: {"createSocketCount":101,"createSocketErrorCount":0,"closeSocketCount":7,"errorSocketCount":76,"timeoutSocketCount":0,"requestCount":1,"freeSockets":{"10.10.98.225:3000:":1},"sockets":{"localhost:80:":93},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1056:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 80
+name: "RequestError"
+data: undefined
+path: "/"
+status: -1
+headers: {}
+res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":3735,"keepAliveSocket":false,"requestUrls":[null],"timing":null,"remoteAddress":"127.0.0.1","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 18120
+hostname: DESKTOP-F4C88D7
+
+2020-08-08 08:53:46,537 ERROR 18120 nodejs.RequestError: connect ECONNREFUSED 127.0.0.1:80, GET [object Object] -1 (connected: false, keepalive socket: false, agent status: {"createSocketCount":101,"createSocketErrorCount":0,"closeSocketCount":7,"errorSocketCount":77,"timeoutSocketCount":0,"requestCount":1,"freeSockets":{"10.10.98.225:3000:":1},"sockets":{"localhost:80:":93},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1056:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 80
+name: "RequestError"
+data: undefined
+path: "/"
+status: -1
+headers: {}
+res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":3755,"keepAliveSocket":false,"requestUrls":[null],"timing":null,"remoteAddress":"127.0.0.1","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 18120
+hostname: DESKTOP-F4C88D7
+
+2020-08-08 08:53:46,570 ERROR 18120 nodejs.RequestError: connect ECONNREFUSED 127.0.0.1:80, GET [object Object] -1 (connected: false, keepalive socket: false, agent status: {"createSocketCount":101,"createSocketErrorCount":0,"closeSocketCount":7,"errorSocketCount":78,"timeoutSocketCount":0,"requestCount":1,"freeSockets":{"10.10.98.225:3000:":1},"sockets":{"localhost:80:":93},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1056:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 80
+name: "RequestError"
+data: undefined
+path: "/"
+status: -1
+headers: {}
+res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":3786,"keepAliveSocket":false,"requestUrls":[null],"timing":null,"remoteAddress":"127.0.0.1","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 18120
+hostname: DESKTOP-F4C88D7
+
+2020-08-08 08:53:46,606 ERROR 18120 nodejs.RequestError: connect ECONNREFUSED 127.0.0.1:80, GET [object Object] -1 (connected: false, keepalive socket: false, agent status: {"createSocketCount":101,"createSocketErrorCount":0,"closeSocketCount":7,"errorSocketCount":79,"timeoutSocketCount":0,"requestCount":1,"freeSockets":{"10.10.98.225:3000:":1},"sockets":{"localhost:80:":93},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1056:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 80
+name: "RequestError"
+data: undefined
+path: "/"
+status: -1
+headers: {}
+res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":3807,"keepAliveSocket":false,"requestUrls":[null],"timing":null,"remoteAddress":"127.0.0.1","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 18120
+hostname: DESKTOP-F4C88D7
+
+2020-08-08 08:53:46,645 ERROR 18120 nodejs.RequestError: connect ECONNREFUSED 127.0.0.1:80, GET [object Object] -1 (connected: false, keepalive socket: false, agent status: {"createSocketCount":101,"createSocketErrorCount":0,"closeSocketCount":7,"errorSocketCount":80,"timeoutSocketCount":0,"requestCount":1,"freeSockets":{"10.10.98.225:3000:":1},"sockets":{"localhost:80:":93},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1056:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 80
+name: "RequestError"
+data: undefined
+path: "/"
+status: -1
+headers: {}
+res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":3873,"keepAliveSocket":false,"requestUrls":[null],"timing":null,"remoteAddress":"127.0.0.1","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 18120
+hostname: DESKTOP-F4C88D7
+
+2020-08-08 08:53:46,650 ERROR 18120 nodejs.RequestError: connect ECONNREFUSED 127.0.0.1:80, GET [object Object] -1 (connected: false, keepalive socket: false, agent status: {"createSocketCount":101,"createSocketErrorCount":0,"closeSocketCount":7,"errorSocketCount":81,"timeoutSocketCount":0,"requestCount":1,"freeSockets":{"10.10.98.225:3000:":1},"sockets":{"localhost:80:":93},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1056:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 80
+name: "RequestError"
+data: undefined
+path: "/"
+status: -1
+headers: {}
+res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":3870,"keepAliveSocket":false,"requestUrls":[null],"timing":null,"remoteAddress":"127.0.0.1","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 18120
+hostname: DESKTOP-F4C88D7
+
+2020-08-08 08:53:46,655 ERROR 18120 nodejs.RequestError: connect ECONNREFUSED 127.0.0.1:80, GET [object Object] -1 (connected: false, keepalive socket: false, agent status: {"createSocketCount":101,"createSocketErrorCount":0,"closeSocketCount":7,"errorSocketCount":82,"timeoutSocketCount":0,"requestCount":1,"freeSockets":{"10.10.98.225:3000:":1},"sockets":{"localhost:80:":93},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1056:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 80
+name: "RequestError"
+data: undefined
+path: "/"
+status: -1
+headers: {}
+res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":3864,"keepAliveSocket":false,"requestUrls":[null],"timing":null,"remoteAddress":"127.0.0.1","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 18120
+hostname: DESKTOP-F4C88D7
+
+2020-08-08 08:53:46,690 ERROR 18120 nodejs.RequestError: connect ECONNREFUSED 127.0.0.1:80, GET [object Object] -1 (connected: false, keepalive socket: false, agent status: {"createSocketCount":101,"createSocketErrorCount":0,"closeSocketCount":7,"errorSocketCount":83,"timeoutSocketCount":0,"requestCount":1,"freeSockets":{"10.10.98.225:3000:":1},"sockets":{"localhost:80:":93},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1056:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 80
+name: "RequestError"
+data: undefined
+path: "/"
+status: -1
+headers: {}
+res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":3892,"keepAliveSocket":false,"requestUrls":[null],"timing":null,"remoteAddress":"127.0.0.1","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 18120
+hostname: DESKTOP-F4C88D7
+
+2020-08-08 08:53:46,714 ERROR 18120 nodejs.RequestError: connect ECONNREFUSED 127.0.0.1:80, GET [object Object] -1 (connected: false, keepalive socket: false, agent status: {"createSocketCount":101,"createSocketErrorCount":0,"closeSocketCount":7,"errorSocketCount":84,"timeoutSocketCount":0,"requestCount":1,"freeSockets":{"10.10.98.225:3000:":1},"sockets":{"localhost:80:":93},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1056:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 80
+name: "RequestError"
+data: undefined
+path: "/"
+status: -1
+headers: {}
+res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":3915,"keepAliveSocket":false,"requestUrls":[null],"timing":null,"remoteAddress":"127.0.0.1","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 18120
+hostname: DESKTOP-F4C88D7
+
+2020-08-08 08:53:46,720 ERROR 18120 nodejs.RequestError: connect ECONNREFUSED 127.0.0.1:80, GET [object Object] -1 (connected: false, keepalive socket: false, agent status: {"createSocketCount":101,"createSocketErrorCount":0,"closeSocketCount":7,"errorSocketCount":85,"timeoutSocketCount":0,"requestCount":1,"freeSockets":{"10.10.98.225:3000:":1},"sockets":{"localhost:80:":93},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1056:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 80
+name: "RequestError"
+data: undefined
+path: "/"
+status: -1
+headers: {}
+res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":3921,"keepAliveSocket":false,"requestUrls":[null],"timing":null,"remoteAddress":"127.0.0.1","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 18120
+hostname: DESKTOP-F4C88D7
+
+2020-08-08 08:53:46,764 ERROR 18120 nodejs.RequestError: connect ECONNREFUSED 127.0.0.1:80, GET [object Object] -1 (connected: false, keepalive socket: false, agent status: {"createSocketCount":101,"createSocketErrorCount":0,"closeSocketCount":7,"errorSocketCount":86,"timeoutSocketCount":0,"requestCount":1,"freeSockets":{"10.10.98.225:3000:":1},"sockets":{"localhost:80:":93},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1056:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 80
+name: "RequestError"
+data: undefined
+path: "/"
+status: -1
+headers: {}
+res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":3961,"keepAliveSocket":false,"requestUrls":[null],"timing":null,"remoteAddress":"127.0.0.1","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 18120
+hostname: DESKTOP-F4C88D7
+
+2020-08-08 08:53:46,793 ERROR 18120 nodejs.RequestError: connect ECONNREFUSED 127.0.0.1:80, GET [object Object] -1 (connected: false, keepalive socket: false, agent status: {"createSocketCount":101,"createSocketErrorCount":0,"closeSocketCount":7,"errorSocketCount":87,"timeoutSocketCount":0,"requestCount":1,"freeSockets":{"10.10.98.225:3000:":1},"sockets":{"localhost:80:":93},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1056:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 80
+name: "RequestError"
+data: undefined
+path: "/"
+status: -1
+headers: {}
+res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":3993,"keepAliveSocket":false,"requestUrls":[null],"timing":null,"remoteAddress":"127.0.0.1","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 18120
+hostname: DESKTOP-F4C88D7
+
+2020-08-08 08:53:46,799 ERROR 18120 nodejs.RequestError: connect ECONNREFUSED 127.0.0.1:80, GET [object Object] -1 (connected: false, keepalive socket: false, agent status: {"createSocketCount":101,"createSocketErrorCount":0,"closeSocketCount":7,"errorSocketCount":88,"timeoutSocketCount":0,"requestCount":1,"freeSockets":{"10.10.98.225:3000:":1},"sockets":{"localhost:80:":93},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1056:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 80
+name: "RequestError"
+data: undefined
+path: "/"
+status: -1
+headers: {}
+res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":3996,"keepAliveSocket":false,"requestUrls":[null],"timing":null,"remoteAddress":"127.0.0.1","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 18120
+hostname: DESKTOP-F4C88D7
+
+2020-08-08 08:53:46,808 ERROR 18120 nodejs.RequestError: connect ECONNREFUSED 127.0.0.1:80, GET [object Object] -1 (connected: false, keepalive socket: false, agent status: {"createSocketCount":101,"createSocketErrorCount":0,"closeSocketCount":7,"errorSocketCount":89,"timeoutSocketCount":0,"requestCount":1,"freeSockets":{"10.10.98.225:3000:":1},"sockets":{"localhost:80:":93},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1056:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 80
+name: "RequestError"
+data: undefined
+path: "/"
+status: -1
+headers: {}
+res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":4009,"keepAliveSocket":false,"requestUrls":[null],"timing":null,"remoteAddress":"127.0.0.1","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 18120
+hostname: DESKTOP-F4C88D7
+
+2020-08-08 08:53:46,831 ERROR 18120 nodejs.RequestError: connect ECONNREFUSED 127.0.0.1:80, GET [object Object] -1 (connected: false, keepalive socket: false, agent status: {"createSocketCount":101,"createSocketErrorCount":0,"closeSocketCount":7,"errorSocketCount":90,"timeoutSocketCount":0,"requestCount":1,"freeSockets":{"10.10.98.225:3000:":1},"sockets":{"localhost:80:":93},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1056:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 80
+name: "RequestError"
+data: undefined
+path: "/"
+status: -1
+headers: {}
+res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":4033,"keepAliveSocket":false,"requestUrls":[null],"timing":null,"remoteAddress":"127.0.0.1","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 18120
+hostname: DESKTOP-F4C88D7
+
+2020-08-08 08:53:46,892 ERROR 18120 nodejs.RequestError: connect ECONNREFUSED 127.0.0.1:80, GET [object Object] -1 (connected: false, keepalive socket: false, agent status: {"createSocketCount":101,"createSocketErrorCount":0,"closeSocketCount":7,"errorSocketCount":91,"timeoutSocketCount":0,"requestCount":1,"freeSockets":{"10.10.98.225:3000:":1},"sockets":{"localhost:80:":93},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1056:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 80
+name: "RequestError"
+data: undefined
+path: "/"
+status: -1
+headers: {}
+res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":4092,"keepAliveSocket":false,"requestUrls":[null],"timing":null,"remoteAddress":"127.0.0.1","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 18120
+hostname: DESKTOP-F4C88D7
+
+2020-08-08 08:53:46,900 ERROR 18120 nodejs.RequestError: connect ECONNREFUSED 127.0.0.1:80, GET [object Object] -1 (connected: false, keepalive socket: false, agent status: {"createSocketCount":101,"createSocketErrorCount":0,"closeSocketCount":7,"errorSocketCount":92,"timeoutSocketCount":0,"requestCount":1,"freeSockets":{"10.10.98.225:3000:":1},"sockets":{"localhost:80:":93},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1056:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 80
+name: "RequestError"
+data: undefined
+path: "/"
+status: -1
+headers: {}
+res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":4099,"keepAliveSocket":false,"requestUrls":[null],"timing":null,"remoteAddress":"127.0.0.1","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 18120
+hostname: DESKTOP-F4C88D7
+
+2020-08-08 08:53:46,922 ERROR 18120 nodejs.RequestError: connect ECONNREFUSED 127.0.0.1:80, GET [object Object] -1 (connected: false, keepalive socket: false, agent status: {"createSocketCount":101,"createSocketErrorCount":0,"closeSocketCount":7,"errorSocketCount":93,"timeoutSocketCount":0,"requestCount":1,"freeSockets":{"10.10.98.225:3000:":1},"sockets":{"localhost:80:":93},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1056:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 80
+name: "RequestError"
+data: undefined
+path: "/"
+status: -1
+headers: {}
+res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":4119,"keepAliveSocket":false,"requestUrls":[null],"timing":null,"remoteAddress":"127.0.0.1","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 18120
+hostname: DESKTOP-F4C88D7
+
+2020-08-08 08:53:46,966 ERROR 18120 nodejs.RequestError: connect ECONNREFUSED 127.0.0.1:80, GET [object Object] -1 (connected: false, keepalive socket: false, agent status: {"createSocketCount":101,"createSocketErrorCount":0,"closeSocketCount":7,"errorSocketCount":94,"timeoutSocketCount":0,"requestCount":1,"freeSockets":{"10.10.98.225:3000:":1},"sockets":{"localhost:80:":93},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1056:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 80
+name: "RequestError"
+data: undefined
+path: "/"
+status: -1
+headers: {}
+res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":4163,"keepAliveSocket":false,"requestUrls":[null],"timing":null,"remoteAddress":"127.0.0.1","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 18120
+hostname: DESKTOP-F4C88D7
+
+2020-08-08 08:53:46,988 ERROR 18120 nodejs.RequestError: connect ECONNREFUSED 127.0.0.1:80, GET [object Object] -1 (connected: false, keepalive socket: false, agent status: {"createSocketCount":101,"createSocketErrorCount":0,"closeSocketCount":7,"errorSocketCount":95,"timeoutSocketCount":0,"requestCount":1,"freeSockets":{"10.10.98.225:3000:":1},"sockets":{"localhost:80:":93},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1056:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 80
+name: "RequestError"
+data: undefined
+path: "/"
+status: -1
+headers: {}
+res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":4184,"keepAliveSocket":false,"requestUrls":[null],"timing":null,"remoteAddress":"127.0.0.1","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 18120
+hostname: DESKTOP-F4C88D7
+
+2020-08-08 08:53:47,047 ERROR 18120 nodejs.RequestError: connect ECONNREFUSED 127.0.0.1:80, GET [object Object] -1 (connected: false, keepalive socket: false, agent status: {"createSocketCount":101,"createSocketErrorCount":0,"closeSocketCount":7,"errorSocketCount":96,"timeoutSocketCount":0,"requestCount":1,"freeSockets":{"10.10.98.225:3000:":1},"sockets":{"localhost:80:":93},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1056:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 80
+name: "RequestError"
+data: undefined
+path: "/"
+status: -1
+headers: {}
+res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":4243,"keepAliveSocket":false,"requestUrls":[null],"timing":null,"remoteAddress":"127.0.0.1","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 18120
+hostname: DESKTOP-F4C88D7
+
+2020-08-08 08:53:47,053 ERROR 18120 nodejs.RequestError: connect ECONNREFUSED 127.0.0.1:80, GET [object Object] -1 (connected: false, keepalive socket: false, agent status: {"createSocketCount":101,"createSocketErrorCount":0,"closeSocketCount":7,"errorSocketCount":97,"timeoutSocketCount":0,"requestCount":1,"freeSockets":{"10.10.98.225:3000:":1},"sockets":{"localhost:80:":93},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1056:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 80
+name: "RequestError"
+data: undefined
+path: "/"
+status: -1
+headers: {}
+res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":4249,"keepAliveSocket":false,"requestUrls":[null],"timing":null,"remoteAddress":"127.0.0.1","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 18120
+hostname: DESKTOP-F4C88D7
+
+2020-08-08 08:53:47,078 ERROR 18120 nodejs.RequestError: connect ECONNREFUSED 127.0.0.1:80, GET [object Object] -1 (connected: false, keepalive socket: false, agent status: {"createSocketCount":101,"createSocketErrorCount":0,"closeSocketCount":7,"errorSocketCount":98,"timeoutSocketCount":0,"requestCount":1,"freeSockets":{"10.10.98.225:3000:":1},"sockets":{"localhost:80:":93},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1056:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 80
+name: "RequestError"
+data: undefined
+path: "/"
+status: -1
+headers: {}
+res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":4277,"keepAliveSocket":false,"requestUrls":[null],"timing":null,"remoteAddress":"127.0.0.1","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 18120
+hostname: DESKTOP-F4C88D7
+
+2020-08-08 08:53:47,083 ERROR 18120 nodejs.RequestError: connect ECONNREFUSED 127.0.0.1:80, GET [object Object] -1 (connected: false, keepalive socket: false, agent status: {"createSocketCount":101,"createSocketErrorCount":0,"closeSocketCount":7,"errorSocketCount":99,"timeoutSocketCount":0,"requestCount":1,"freeSockets":{"10.10.98.225:3000:":1},"sockets":{"localhost:80:":93},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1056:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 80
+name: "RequestError"
+data: undefined
+path: "/"
+status: -1
+headers: {}
+res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":4279,"keepAliveSocket":false,"requestUrls":[null],"timing":null,"remoteAddress":"127.0.0.1","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 18120
+hostname: DESKTOP-F4C88D7
+
+2020-08-08 08:53:47,088 ERROR 18120 nodejs.RequestError: connect ECONNREFUSED 127.0.0.1:80, GET [object Object] -1 (connected: false, keepalive socket: false, agent status: {"createSocketCount":101,"createSocketErrorCount":0,"closeSocketCount":7,"errorSocketCount":100,"timeoutSocketCount":0,"requestCount":1,"freeSockets":{"10.10.98.225:3000:":1},"sockets":{"localhost:80:":93},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1056:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 80
+name: "RequestError"
+data: undefined
+path: "/"
+status: -1
+headers: {}
+res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":4284,"keepAliveSocket":false,"requestUrls":[null],"timing":null,"remoteAddress":"127.0.0.1","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 18120
+hostname: DESKTOP-F4C88D7
+
+2020-08-08 08:54:51,468 ERROR 5056 [-/10.10.98.225/-/36ms GET /news] nodejs.TypeError: Cannot read property 'data' of undefined
+    at E:\jsonKK\study\node\node-web\base-egg\test\hello-world\app\service\news.js:27:36
+    at Array.map (<anonymous>)
+    at NewsService.list (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\app\service\news.js:27:21)
+    at processTicksAndRejections (internal/process/task_queues.js:85:5)
+    at async NewsController.list (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\app\controller\news.js:7:22)
+    at async E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+
+pid: 5056
+hostname: DESKTOP-F4C88D7
+
+2020-08-08 08:55:43,660 ERROR 22920 [-/10.10.98.225/-/28ms GET /news] nodejs.TypeError: Cannot read property 'id' of undefined
+    at E:\jsonKK\study\node\node-web\base-egg\test\hello-world\app\service\news.js:27:36
+    at Array.map (<anonymous>)
+    at NewsService.list (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\app\service\news.js:27:21)
+    at processTicksAndRejections (internal/process/task_queues.js:85:5)
+    at async NewsController.list (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\app\controller\news.js:7:22)
+    at async E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+
+pid: 22920
+hostname: DESKTOP-F4C88D7
+
+2020-08-08 09:05:12,937 ERROR 22160 [-/10.10.98.225/-/15ms GET /news] nodejs.Template render error: (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\app\view\news\list.html) [Line 8, Column 27]
+  parseFor: variable name expected for loop
+  parseFor: variable name expected for loop
+    at Object._prettifyError (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\nunjucks\src\lib.js:36:11)
+    at Template.render (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\nunjucks\src\environment.js:536:21)
+    at E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\nunjucks\src\environment.js:364:27
+    at createTemplate (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\nunjucks\src\environment.js:313:9)
+    at handle (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\nunjucks\src\environment.js:325:11)
+    at E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\nunjucks\src\environment.js:337:9
+    at next (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\nunjucks\src\lib.js:326:7)
+    at Object.asyncIter (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\nunjucks\src\lib.js:332:3)
+    at NunjucksEnvironment.getTemplate (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\nunjucks\src\environment.js:319:9)
+    at NunjucksEnvironment.render (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\nunjucks\src\environment.js:358:10)
+name: "Template render error"
+pid: 22160
 hostname: DESKTOP-F4C88D7
 

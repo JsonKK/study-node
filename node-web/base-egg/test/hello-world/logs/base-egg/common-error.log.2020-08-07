@@ -1,0 +1,168 @@
+2020-08-06 08:45:37,889 ERROR 28896 [-/127.0.0.1/-/4ms GET /news] nodejs.AssertionError: Can't find news/list.html from 
+    at Map.resolve (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-view\lib\view_manager.js:74:5)
+    at processTicksAndRejections (internal/process/task_queues.js:85:5)
+    at async ContextView.[contextView#render] (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-view\lib\context_view.js:50:22)
+    at async NewsController.list (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\app\controller\news.js:11:5)
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 28896
+hostname: DESKTOP-F4C88D7
+
+2020-08-06 08:47:10,368 ERROR 19496 [-/127.0.0.1/-/9ms GET /news] nodejs.AssertionError: Can't find views/list.html from 
+    at Map.resolve (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-view\lib\view_manager.js:74:5)
+    at processTicksAndRejections (internal/process/task_queues.js:85:5)
+    at async ContextView.[contextView#render] (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-view\lib\context_view.js:50:22)
+    at async NewsController.list (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\app\controller\news.js:11:5)
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 19496
+hostname: DESKTOP-F4C88D7
+
+2020-08-06 08:57:22,799 ERROR 16572 [-/127.0.0.1/-/7ms GET /news] nodejs.AssertionError: Can't find ./list.html from 
+    at Map.resolve (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-view\lib\view_manager.js:74:5)
+    at processTicksAndRejections (internal/process/task_queues.js:85:5)
+    at async ContextView.[contextView#render] (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-view\lib\context_view.js:50:22)
+    at async NewsController.list (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\app\controller\news.js:11:5)
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 16572
+hostname: DESKTOP-F4C88D7
+
+2020-08-06 08:57:58,218 ERROR 16392 [-/127.0.0.1/-/8ms GET /news] nodejs.AssertionError: Can't find /news/list.html from 
+    at Map.resolve (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-view\lib\view_manager.js:74:5)
+    at processTicksAndRejections (internal/process/task_queues.js:85:5)
+    at async ContextView.[contextView#render] (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-view\lib\context_view.js:50:22)
+    at async NewsController.list (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\app\controller\news.js:11:5)
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 16392
+hostname: DESKTOP-F4C88D7
+
+2020-08-06 08:58:00,781 ERROR 16392 [-/127.0.0.1/-/3ms GET /news] nodejs.AssertionError: Can't find /news/list.html from 
+    at Map.resolve (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-view\lib\view_manager.js:74:5)
+    at processTicksAndRejections (internal/process/task_queues.js:85:5)
+    at async ContextView.[contextView#render] (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-view\lib\context_view.js:50:22)
+    at async NewsController.list (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\app\controller\news.js:11:5)
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 16392
+hostname: DESKTOP-F4C88D7
+
+2020-08-06 08:58:16,913 ERROR 16392 [-/127.0.0.1/-/1ms GET /news] nodejs.AssertionError: Can't find /news/list.html from 
+    at Map.resolve (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-view\lib\view_manager.js:74:5)
+    at processTicksAndRejections (internal/process/task_queues.js:85:5)
+    at async ContextView.[contextView#render] (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-view\lib\context_view.js:50:22)
+    at async NewsController.list (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\app\controller\news.js:11:5)
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 16392
+hostname: DESKTOP-F4C88D7
+
+2020-08-06 08:58:29,235 ERROR 16392 [-/127.0.0.1/-/0ms GET /news] nodejs.AssertionError: Can't find /news/list.html from 
+    at Map.resolve (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-view\lib\view_manager.js:74:5)
+    at processTicksAndRejections (internal/process/task_queues.js:85:5)
+    at async ContextView.[contextView#render] (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-view\lib\context_view.js:50:22)
+    at async NewsController.list (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\app\controller\news.js:11:5)
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 16392
+hostname: DESKTOP-F4C88D7
+
+2020-08-06 09:17:52,018 ERROR 12432 [-/127.0.0.1/-/7ms GET /news] nodejs.AssertionError: Can't find /news/list.html from 
+    at Map.resolve (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-view\lib\view_manager.js:74:5)
+    at processTicksAndRejections (internal/process/task_queues.js:85:5)
+    at async ContextView.[contextView#render] (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-view\lib\context_view.js:50:22)
+    at async NewsController.list (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\app\controller\news.js:11:5)
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 12432
+hostname: DESKTOP-F4C88D7
+
+2020-08-07 20:26:30,924 ERROR 13484 [-/10.10.98.225/-/5038ms GET /news] nodejs.ConnectionTimeoutError: Connect timeout for 5000ms, GET https://hacker-news.firebaseio.com/v0/topstories.json -2 (connected: false, keepalive socket: false, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":1,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+headers: {}
+    at Timeout._onTimeout (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\urllib\lib\urllib.js:946:15)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ConnectionTimeoutError"
+requestId: 1
+data: undefined
+path: "/v0/topstories.json?orderBy=%22%24key%22&startAt=%220%22&endAt=%224%22"
+status: -2
+headers: {}
+res: {"status":-2,"statusCode":-2,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":5030,"keepAliveSocket":false,"requestUrls":["https://hacker-news.firebaseio.com/v0/topstories.json"],"timing":null,"remoteAddress":"35.201.97.85","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 13484
+hostname: DESKTOP-F4C88D7
+
+2020-08-07 20:41:42,694 ERROR 18552 [-/10.10.98.225/-/5032ms GET /news] nodejs.ConnectionTimeoutError: Connect timeout for 5000ms, GET http://hacker-news.firebaseio.com/v0/topstories.json -2 (connected: false, keepalive socket: false, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":1,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+headers: {}
+    at Timeout._onTimeout (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\urllib\lib\urllib.js:946:15)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ConnectionTimeoutError"
+requestId: 1
+data: undefined
+path: "/v0/topstories.json?orderBy=%22%24key%22&startAt=%220%22&endAt=%224%22"
+status: -2
+headers: {}
+res: {"status":-2,"statusCode":-2,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":5010,"keepAliveSocket":false,"requestUrls":["http://hacker-news.firebaseio.com/v0/topstories.json"],"timing":null,"remoteAddress":"35.201.97.85","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 18552
+hostname: DESKTOP-F4C88D7
+
+2020-08-07 20:42:51,946 ERROR 18552 [-/10.10.98.225/-/5007ms GET /news] nodejs.ConnectionTimeoutError: Connect timeout for 5000ms, GET http://hacker-news.firebaseio.com/v0/topstories.json -2 (connected: false, keepalive socket: false, agent status: {"createSocketCount":2,"createSocketErrorCount":0,"closeSocketCount":2,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+headers: {}
+    at Timeout._onTimeout (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\urllib\lib\urllib.js:946:15)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ConnectionTimeoutError"
+requestId: 2
+data: undefined
+path: "/v0/topstories.json?orderBy=%22%24key%22&startAt=%220%22&endAt=%224%22"
+status: -2
+headers: {}
+res: {"status":-2,"statusCode":-2,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":5004,"keepAliveSocket":false,"requestUrls":["http://hacker-news.firebaseio.com/v0/topstories.json"],"timing":null,"remoteAddress":"35.201.97.85","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 18552
+hostname: DESKTOP-F4C88D7
+
+2020-08-07 21:00:54,674 ERROR 18552 [-/10.10.98.225/-/5003ms GET /news] nodejs.ConnectionTimeoutError: Connect timeout for 5000ms, GET http://hacker-news.firebaseio.com/v0/topstories.json -2 (connected: false, keepalive socket: false, agent status: {"createSocketCount":3,"createSocketErrorCount":0,"closeSocketCount":3,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+headers: {}
+    at Timeout._onTimeout (E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\urllib\lib\urllib.js:946:15)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ConnectionTimeoutError"
+requestId: 3
+data: undefined
+path: "/v0/topstories.json?orderBy=%22%24key%22&startAt=%220%22&endAt=%224%22"
+status: -2
+headers: {}
+res: {"status":-2,"statusCode":-2,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":5002,"keepAliveSocket":false,"requestUrls":["http://hacker-news.firebaseio.com/v0/topstories.json"],"timing":null,"remoteAddress":"35.201.97.85","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 18552
+hostname: DESKTOP-F4C88D7
+
