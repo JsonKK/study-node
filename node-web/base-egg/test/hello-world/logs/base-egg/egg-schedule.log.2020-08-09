@@ -1,0 +1,12 @@
+2020-08-09 04:29:56,617 INFO 20832 [Timer] E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 86403387ms at 2020-08-10 04:30:00.004
+2020-08-09 04:29:56,613 INFO 20028 [Job#15969185966131210059230639001] E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-multipart\app\schedule\clean_tmpdir.js executing by app
+2020-08-09 04:29:56,619 INFO 20028 [Job#15969185966131210059230639001] E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-multipart\app\schedule\clean_tmpdir.js execute succeed, used 5ms
+2020-08-10 06:46:06,606 INFO 20832 [Timer] E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 62033399ms at 2020-08-11 00:00:00.005
+2020-08-10 06:46:06,613 INFO 20832 [Timer] E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 62034394ms at 2020-08-11 00:00:01.007
+2020-08-10 06:46:06,620 INFO 20832 [Timer] E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 78233387ms at 2020-08-11 04:30:00.007
+2020-08-10 06:46:07,973 INFO 20028 [Job#15970131666012155759216076002] E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-logrotator\app\schedule\clean_log.js executing by app
+2020-08-10 06:46:07,973 INFO 20028 [Job#15970131666062155759263838002] E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-logrotator\app\schedule\rotate_by_file.js executing by app
+2020-08-10 06:46:07,975 INFO 20028 [Job#15970131666132155759330898992] E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-multipart\app\schedule\clean_tmpdir.js executing by app
+2020-08-10 06:46:07,981 INFO 20028 [Job#15970131666012155759216076002] E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-logrotator\app\schedule\clean_log.js execute succeed, used 8ms
+2020-08-10 06:46:08,717 INFO 20028 [Job#15970131666132155759330898992] E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-multipart\app\schedule\clean_tmpdir.js execute succeed, used 742ms
+2020-08-10 06:46:09,913 INFO 20028 [Job#15970131666062155759263838002] E:\jsonKK\study\node\node-web\base-egg\test\hello-world\node_modules\egg-logrotator\app\schedule\rotate_by_file.js execute succeed, used 1940ms
