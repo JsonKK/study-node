@@ -65,6 +65,13 @@
         {
             "type": "node",
             "request": "launch",
+            "name": "node-web/base-koa下的当前文件",
+            "program": "${file}",
+            "cwd":"${workspaceRoot}/node-web/base-koa"
+        },
+        {
+            "type": "node",
+            "request": "launch",
             "name": "node-web/base-connect程序执行",
             "program": "./index.js",
             "cwd":"${workspaceRoot}/node-web/base-connect"
