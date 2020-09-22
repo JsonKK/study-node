@@ -1,0 +1,21 @@
+{
+  "name": "koa-router",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "koa",
+    "router"
+  ],
+  "author": "jsonKK",
+  "license": "ISC",
+  "dependencies": {
+    "@koa/router": "^9.4.0",
+    "koa": "^2.13.0",
+    "koa-bodyparser": "^4.3.0",
+    "supervisor": "^0.12.0"
+  }
+}
