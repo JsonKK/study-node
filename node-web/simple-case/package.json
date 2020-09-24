@@ -4,10 +4,13 @@
   "description": "this is a demo",
   "main": "index.js",
   "scripts": {
-    "start" : "nodemon ./src/app.js --config ./config/nodemon.json",
-    "start:debug" : "nodemon --debug ./src/app.js --config ./config/nodemon.json",
+    "start": "nodemon ./src/app.js --config ./config/nodemon.json",
+    "start:debug": "nodemon --debug ./src/app.js --config ./config/nodemon.json",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "laisujie",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "nodejs-websocket": "^1.7.2"
+  }
 }
