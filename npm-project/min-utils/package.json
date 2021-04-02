@@ -1,0 +1,11 @@
+{
+  "name": "min-utils",
+  "version": "1.0.0",
+  "description": "normal tool inside",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jsonkk",
+  "license": "ISC"
+}
