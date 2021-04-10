@@ -86,26 +86,6 @@
 
     return debounced;
   }
-  // const debounce = function(fn, immediate = true, wait = 300){
-  //   let timer;
-  //   return function () {
-  //     if (timer) clearTimeout(timer);
-  //     if (immediate) {
-  //       // 如果已经执行过，不再执行
-  //       let callNow = !timer;
-  //       timer = setTimeout(() => {
-  //         timer = null;
-  //       }, wait)
-  //       if (callNow) {
-  //         fn.apply(this, arguments)
-  //       }
-  //     } else {
-  //       timer = setTimeout(() => {
-  //         fn.apply(this, arguments)
-  //       }, wait);
-  //     }
-  //   }
-  // }
 
 
   //数组去重

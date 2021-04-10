@@ -1,5 +1,5 @@
 ## Installation
-`npm install min-utils`
+`npm install web-mini-utils`
 
 ## Use
-`const minUtils = require('min-utils');`
+`const minUtils = require('web-mini-utils');`
