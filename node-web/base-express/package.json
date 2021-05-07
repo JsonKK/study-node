@@ -14,7 +14,7 @@
     "moment": "^2.27.0",
     "mysql2": "^2.1.0",
     "sequelize": "^6.3.3",
-    "underscore": "^1.10.2"
+    "underscore": "^1.12.1"
   },
   "devDependencies": {
     "sequelize-cli": "^6.2.0"
