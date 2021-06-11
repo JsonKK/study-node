@@ -1,0 +1,1 @@
+position 是文件读取的起始 位置，如果 position 的值为 null，则会从当前文件指针的位置读取。回调函数传递 bytesRead 和 buffer，分别表示读取的字节数和缓冲区对象。
