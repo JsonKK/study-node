@@ -1,6 +1,7 @@
 var fs = require('fs');
 
 fs.readFile('ykt.json',function(error,data){
+    console.log('B');
     if(error){
         console.log('没找到文件');
     }
@@ -17,3 +18,7 @@ fs.readFile('ykt.json',function(error,data){
         });
     }
 });
+
+setTimeout(()=>{
+    console.log('A')
+},0)
