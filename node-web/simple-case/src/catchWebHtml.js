@@ -1,0 +1,21 @@
+function loadPage(url) {
+  var http = require('http');
+  var pm = new Promise(function (resolve, reject) {
+      http.get(url, function (res) {
+        var html = '';
+        res.on('data', function (d) {
+            html += d.toString()
+        });
+        res.on('end', function () {
+            resolve(html);
+        });
+          
+      }).on('error', function (e) {
+          reject(e)
+      });
+  });
+  return pm;
+}
+loadPage('http://admin.hb.test.k8s.taqu.cn/#/data/smsManage/smsMessage').then(function (d) {
+  console.log(d);
+});
