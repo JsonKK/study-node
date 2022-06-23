@@ -5,3 +5,4 @@ dist
 .vscode
 .svn
 .idea
+package-lock.json
