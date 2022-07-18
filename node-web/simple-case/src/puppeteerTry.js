@@ -19,7 +19,7 @@ const fs = require('fs');
   // for(let key in cookieList){
   //   console.log({key})
   //   const cookie = {
-  //     url : 'http://admin.hb.test.k8s.taqu.cn',
+  //     url : '',
   //     name : key,
   //     value : cookieList[key],
   //     path : '/'

@@ -16,6 +16,6 @@ function loadPage(url) {
   });
   return pm;
 }
-loadPage('http://admin.hb.test.k8s.taqu.cn/#/data/smsManage/smsMessage').then(function (d) {
+loadPage('https://www.baidu.com').then(function (d) {
   console.log(d);
 });
